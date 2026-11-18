@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parent
 
 if __name__ == "__main__":
     # ponytail: default ke yolov8n-seg.pt; ganti path checkpoint kalau punya pre-trained khusus
-    model = YOLO("yolov8n-seg.pt")
+    model = YOLO(str(ROOT / "yolov8n-seg.pt"))
     model.train(
         data=str(ROOT / "combined_shrimp_udang2" / "data.yaml"),
         epochs=50,

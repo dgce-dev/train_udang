@@ -1,9 +1,10 @@
 {
     "python-envs.pythonProjects": [
         {
-            "path": "finetune_combined_yolo.py",
+            "path": "v1117/finetune_combined_yolo.py",
             "envManager": "ms-python.python:venv",
             "packageManager": "ms-python.python:pip"
         }
-    ]
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:system"
 }

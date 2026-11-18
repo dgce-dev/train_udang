@@ -84,7 +84,7 @@ Atau via CLI Ultralytics langsung:
 yolo segment train data=combined_shrimp_udang2/data.yaml model=yolov8n-seg.pt epochs=50 imgsz=640 batch=16
 ```
 File bobot terbaik tersimpan di:
-`runs/segment/combined_shrimp_udang2/weights/best.pt`
+`D:\C\Download\train_udang\v1118\runs\segment\dataset-2\weights\best.pt`
 
 ### Parameter & Indikator Hasil Training Bagus
 
@@ -125,7 +125,7 @@ Gunakan skrip [`export_hailo_pt2hef.py`](export_hailo_pt2hef.py:1) atau snippet:
 from ultralytics import YOLO
 
 # Muat model PyTorch hasil training
-model = YOLO("runs/segment/combined_shrimp_udang2-4/weights/best.pt")
+model = YOLO(r"D:\C\Download\train_udang\v1118\runs\segment\dataset-2\weights\best.pt")
 
 # Export ke format Hailo Executable Format (.hef)
 # - name="hailo8l" untuk Raspberry Pi AI Kit resmi (13 TOPS)
@@ -134,29 +134,43 @@ model.export(
     format="hailo",
     name="hailo8l",
     imgsz=640,
-    data="combined_shrimp_udang2/data.yaml"  # Kalibrasi kuantisasi INT8
+    data="v1118/dataset/data.yaml"  # Kalibrasi kuantisasi INT8
 )
 ```
 
 #### Cara Menjalankan Export Hailo dari Windows:
 
-**Solusi 1: Gunakan WSL2 (Ubuntu) di Windows 11 (Rekomendasi)**
-1. Pasang WSL Ubuntu via PowerShell/Terminal Admin:
-   ```cmd
-   wsl --install -d Ubuntu
+**Solusi 1: Gunakan WSL2 (Ubuntu) + Hailo Developer Zone (Rekomendasi)**
+
+> [!NOTE]
+> `hailo-dataflow-compiler` **tidak ada di PyPI publik** (`pip install hailo-dataflow-compiler` akan gagal/404) dan hanya mendukung **Python 3.8 – 3.11**.
+
+1. **Daftar & Download dari Hailo Developer Zone**:
+   - Buka portal [Hailo Developer Zone](https://hailo.ai/developer-zone/software-downloads/).
+   - Buat akun gratis / login.
+   - Buka menu **Software Downloads** > cari **Hailo Dataflow Compiler (DFC)**.
+   - Download file wheel `.whl` (contoh: `hailo_dataflow_compiler-X.X.X-cp310-cp310-linux_x86_64.whl` untuk Python 3.10).
+   - Taruh file wheel di folder project atau direktori yang mudah diakses dari WSL.
+
+2. **Setup Environment di WSL (Linux Filesystem)**:
+   > Buat venv di Linux filesystem home (`~`) agar symlink dan permission aman, bukan di drive mount Windows (`/mnt/d/...`).
+   ```bash
+   # Pastikan paket venv terpasang
+   sudo apt update
+   sudo apt install -y python3-venv python3-pip
+
+   # Buat venv di home direktori
+   python3 -m venv ~/.venv_hailo
+   source ~/.venv_hailo/bin/activate
+
+   # Install ultralytics & file wheel Hailo DFC yang telah didownload
+   pip install ultralytics
+   pip install /mnt/d/C/Download/train_udang/hailo_dataflow_compiler-*-linux_x86_64.whl
    ```
-2. Buka terminal Ubuntu WSL, arahkan ke folder project Windows:
+
+3. **Jalankan Export**:
    ```bash
    cd /mnt/d/C/Download/train_udang
-   ```
-3. Buat virtual environment & install dependensi:
-   ```bash
-   python3 -m venv .venv_wsl
-   source .venv_wsl/bin/activate
-   pip install ultralytics hailo-dataflow-compiler
-   ```
-4. Jalankan export:
-   ```bash
    python export_hailo_pt2hef.py
    ```
 
@@ -164,7 +178,7 @@ model.export(
 - Upload file `best.pt` ke [Ultralytics HUB](https://hub.ultralytics.com/).
 - Pilih opsi export format `Hailo (HEF)` dari dashboard cloud.
 
-Hasil export: `runs/segment/combined_shrimp_udang2-4/weights/best_hailo8l.hef`.
+Hasil export: `v1118/runs/segment/dataset-2/weights/best_hailo8l.hef`.
 
 ---
 
@@ -173,7 +187,7 @@ Hasil export: `runs/segment/combined_shrimp_udang2-4/weights/best_hailo8l.hef`.
 Jika belum memasang hardware Hailo AI Kit, export ke format NCNN (sangat dioptimalkan untuk CPU ARM Cortex-A76 Raspberry Pi 5):
 
 ```cmd
-yolo export model=runs/segment/combined_shrimp_udang2/weights/best.pt format=ncnn imgsz=640
+yolo export model=v1118/runs/segment/dataset-2/weights/best.pt format=ncnn imgsz=640
 ```
 
 Hasil export: Folder `best_ncnn_model` berisi file `model.bin` dan `model.param`.
@@ -186,10 +200,10 @@ Salin file model ke Raspberry Pi 5 menggunakan SCP via terminal:
 
 ```bash
 # Contoh pengiriman file .hef
-scp runs/segment/combined_shrimp_udang2/weights/best_hailo8l.hef pi@<IP_RASPBERRY_PI>:~/train_udang/
+scp v1118/runs/segment/dataset-2/weights/best_hailo8l.hef pi@<IP_RASPBERRY_PI>:~/train_udang/
 
 # Atau contoh pengiriman folder NCNN
-scp -r runs/segment/combined_shrimp_udang2/weights/best_ncnn_model pi@<IP_RASPBERRY_PI>:~/train_udang/
+scp -r v1118/runs/segment/dataset-2/weights/best_ncnn_model pi@<IP_RASPBERRY_PI>:~/train_udang/
 ```
 
 ---

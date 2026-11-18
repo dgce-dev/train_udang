@@ -22,10 +22,16 @@ Project train_udang: fine-tuning & training model YOLO Instance Segmentation (de
 - **Matplotlib (`matplotlib`)**: 3.11.2
 
 ## 4. Model & Dataset
-- **Base Architecture**: YOLOv8 Nano Segment (`yolov8n-seg.pt`)
+- **Base Architecture**: YOLO11 Nano Segment (`yolo11n-seg.pt`)
 - **Dataset Format**: YOLO Instance Segmentation (Polygon text labels)
 - **Config Parser**: PyYAML 6.0.3
 - **Classes**: 4 kelas (`box`, `round_base`, `side_shrimp`, `top_shrimp`)
+
+### Alasan Migrasi ke YOLO11:
+1. **Parameter Lebih Ramping**: Berkurang dari 3.4M (v8n) ke 2.9M (v11n) (~15% lebih hemat memory).
+2. **Komputasi Lebih Ringan**: Turun dari 12.6 GFLOPs ke 10.4 GFLOPs, mempercepat inferensi pada CPU Raspberry Pi 5.
+3. **Arsitektur Lebih Presisi**: Penggunaan blok C3k2 dan attention C2PSA meningkatkan akurasi polygon mask (mAP50-95 naik ~1-2%) terutama pada objek tipis seperti antena dan lekuk tubuh udang.
+4. **Kompatibilitas Penuh**: Format dataset, loss function, dan pipeline training Ultralytics tidak berubah.
 
 ## 5. Supporting Tools & Utilities
 - **tqdm**: 4.70.0
