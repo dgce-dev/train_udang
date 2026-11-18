@@ -27,17 +27,25 @@ IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".webp"}
 
 
 def read_names(yaml_path: Path) -> list[str]:
-    """Read the inline names list/dict from a Roboflow YOLO data.yaml."""
+    """Read the names list/dict from a YOLO data.yaml."""
     for line in yaml_path.read_text(encoding="utf-8").splitlines():
         key, separator, value = line.partition(":")
         if not separator or key.strip() != "names":
             continue
-        names = ast.literal_eval(value.strip())
-        if isinstance(names, dict):
-            return [str(names[index]) for index in sorted(names, key=int)]
-        if isinstance(names, list):
-            return [str(name) for name in names]
-    raise ValueError(f"Could not parse names from {yaml_path}")
+        try:
+            names = ast.literal_eval(value.strip())
+            if isinstance(names, dict):
+                return [str(names[index]) for index in sorted(names, key=int)]
+            if isinstance(names, list):
+                return [str(name) for name in names]
+        except Exception:
+            pass
+    import yaml
+    data = yaml.safe_load(yaml_path.read_text(encoding="utf-8"))
+    names = data.get("names", [])
+    if isinstance(names, dict):
+        return [str(names[index]) for index in sorted(names, key=int)]
+    return [str(name) for name in names]
 
 
 def parse_class_map(
