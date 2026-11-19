@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+/home/pi/udang/venv-udang/bin/python /home/pi/udang/shrimp_camera_app.py

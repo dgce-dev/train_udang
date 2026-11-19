@@ -1,0 +1,8762 @@
+{
+  "weights": "/home/pi/udang/yolov11_udang.pt",
+  "source": "/home/pi/udang/shrimp_dataset/test/images",
+  "classes": [
+    3
+  ],
+  "measurement": "maximum Euclidean distance between foreground mask pixels",
+  "results": [
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/20231223_124442_jpg.rf.bcf60b9c39b5b0e1d3e770247a47b21b.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.8789,
+          "length_px": 327.88,
+          "endpoint_a_xy": [
+            450,
+            478
+          ],
+          "endpoint_b_xy": [
+            474,
+            151
+          ],
+          "mask_area_px": 11679,
+          "box_xyxy": [
+            432,
+            150,
+            483,
+            485
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/20231223_124449_jpg.rf.849c2683a562fa9e2c4d28ff760c8166.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9026,
+          "length_px": 320.32,
+          "endpoint_a_xy": [
+            720,
+            605
+          ],
+          "endpoint_b_xy": [
+            412,
+            517
+          ],
+          "mask_area_px": 12647,
+          "box_xyxy": [
+            411,
+            508,
+            727,
+            610
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/20250220_121759_jpg.rf.87775b9ff63ddcb5762858289db0d95b.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9242,
+          "length_px": 298.2,
+          "endpoint_a_xy": [
+            914,
+            461
+          ],
+          "endpoint_b_xy": [
+            723,
+            232
+          ],
+          "mask_area_px": 10920,
+          "box_xyxy": [
+            720,
+            231,
+            926,
+            466
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9215,
+          "length_px": 285.16,
+          "endpoint_a_xy": [
+            379,
+            436
+          ],
+          "endpoint_b_xy": [
+            573,
+            227
+          ],
+          "mask_area_px": 10044,
+          "box_xyxy": [
+            369,
+            226,
+            579,
+            447
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9214,
+          "length_px": 290.08,
+          "endpoint_a_xy": [
+            296,
+            553
+          ],
+          "endpoint_b_xy": [
+            561,
+            435
+          ],
+          "mask_area_px": 10250,
+          "box_xyxy": [
+            296,
+            435,
+            570,
+            561
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9142,
+          "length_px": 294.11,
+          "endpoint_a_xy": [
+            602,
+            1012
+          ],
+          "endpoint_b_xy": [
+            892,
+            963
+          ],
+          "mask_area_px": 10706,
+          "box_xyxy": [
+            598,
+            942,
+            893,
+            1020
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9141,
+          "length_px": 289.38,
+          "endpoint_a_xy": [
+            278,
+            692
+          ],
+          "endpoint_b_xy": [
+            523,
+            538
+          ],
+          "mask_area_px": 10829,
+          "box_xyxy": [
+            278,
+            531,
+            537,
+            701
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.91,
+          "length_px": 280.44,
+          "endpoint_a_xy": [
+            901,
+            1140
+          ],
+          "endpoint_b_xy": [
+            639,
+            1040
+          ],
+          "mask_area_px": 9788,
+          "box_xyxy": [
+            622,
+            1039,
+            901,
+            1151
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.9041,
+          "length_px": 294.09,
+          "endpoint_a_xy": [
+            675,
+            949
+          ],
+          "endpoint_b_xy": [
+            640,
+            657
+          ],
+          "mask_area_px": 10334,
+          "box_xyxy": [
+            629,
+            656,
+            681,
+            954
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8854,
+          "length_px": 286.9,
+          "endpoint_a_xy": [
+            523,
+            826
+          ],
+          "endpoint_b_xy": [
+            556,
+            541
+          ],
+          "mask_area_px": 10100,
+          "box_xyxy": [
+            508,
+            541,
+            566,
+            838
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.8763,
+          "length_px": 294.97,
+          "endpoint_a_xy": [
+            291,
+            542
+          ],
+          "endpoint_b_xy": [
+            325,
+            249
+          ],
+          "mask_area_px": 11148,
+          "box_xyxy": [
+            283,
+            249,
+            345,
+            550
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/20250220_123058_jpg.rf.560d2deddd57a4fdc1f0fcdb6747a310.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9167,
+          "length_px": 347.06,
+          "endpoint_a_xy": [
+            523,
+            1209
+          ],
+          "endpoint_b_xy": [
+            371,
+            897
+          ],
+          "mask_area_px": 14993,
+          "box_xyxy": [
+            364,
+            882,
+            541,
+            1209
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9154,
+          "length_px": 339.56,
+          "endpoint_a_xy": [
+            786,
+            656
+          ],
+          "endpoint_b_xy": [
+            1002,
+            394
+          ],
+          "mask_area_px": 13892,
+          "box_xyxy": [
+            785,
+            392,
+            1014,
+            668
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9148,
+          "length_px": 370.82,
+          "endpoint_a_xy": [
+            420,
+            456
+          ],
+          "endpoint_b_xy": [
+            215,
+            147
+          ],
+          "mask_area_px": 15371,
+          "box_xyxy": [
+            215,
+            146,
+            426,
+            462
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9142,
+          "length_px": 407.22,
+          "endpoint_a_xy": [
+            475,
+            642
+          ],
+          "endpoint_b_xy": [
+            540,
+            240
+          ],
+          "mask_area_px": 18941,
+          "box_xyxy": [
+            468,
+            239,
+            550,
+            651
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9087,
+          "length_px": 394.45,
+          "endpoint_a_xy": [
+            855,
+            466
+          ],
+          "endpoint_b_xy": [
+            997,
+            98
+          ],
+          "mask_area_px": 17410,
+          "box_xyxy": [
+            854,
+            98,
+            1008,
+            471
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.9084,
+          "length_px": 358.72,
+          "endpoint_a_xy": [
+            703,
+            1194
+          ],
+          "endpoint_b_xy": [
+            1021,
+            1028
+          ],
+          "mask_area_px": 17336,
+          "box_xyxy": [
+            699,
+            1014,
+            1023,
+            1195
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.9062,
+          "length_px": 349.14,
+          "endpoint_a_xy": [
+            236,
+            1209
+          ],
+          "endpoint_b_xy": [
+            361,
+            883
+          ],
+          "mask_area_px": 14934,
+          "box_xyxy": [
+            224,
+            873,
+            372,
+            1213
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8973,
+          "length_px": 351.05,
+          "endpoint_a_xy": [
+            621,
+            1044
+          ],
+          "endpoint_b_xy": [
+            965,
+            974
+          ],
+          "mask_area_px": 15481,
+          "box_xyxy": [
+            605,
+            954,
+            965,
+            1051
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.8809,
+          "length_px": 314.78,
+          "endpoint_a_xy": [
+            592,
+            164
+          ],
+          "endpoint_b_xy": [
+            284,
+            99
+          ],
+          "mask_area_px": 14878,
+          "box_xyxy": [
+            283,
+            87,
+            640,
+            199
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.8773,
+          "length_px": 349.91,
+          "endpoint_a_xy": [
+            201,
+            1088
+          ],
+          "endpoint_b_xy": [
+            275,
+            746
+          ],
+          "mask_area_px": 14487,
+          "box_xyxy": [
+            200,
+            733,
+            276,
+            1089
+          ]
+        },
+        {
+          "instance": 11,
+          "class_id": 3,
+          "confidence": 0.8762,
+          "length_px": 382.46,
+          "endpoint_a_xy": [
+            284,
+            608
+          ],
+          "endpoint_b_xy": [
+            204,
+            234
+          ],
+          "mask_area_px": 16387,
+          "box_xyxy": [
+            196,
+            234,
+            290,
+            609
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/20250314-11181-41590-001_jpeg.rf.b758fe03125c50b07fa8d7cbf99f126e.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9194,
+          "length_px": 186.27,
+          "endpoint_a_xy": [
+            401,
+            759
+          ],
+          "endpoint_b_xy": [
+            540,
+            635
+          ],
+          "mask_area_px": 4283,
+          "box_xyxy": [
+            401,
+            635,
+            543,
+            767
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9186,
+          "length_px": 236.78,
+          "endpoint_a_xy": [
+            462,
+            793
+          ],
+          "endpoint_b_xy": [
+            246,
+            696
+          ],
+          "mask_area_px": 7283,
+          "box_xyxy": [
+            246,
+            692,
+            470,
+            796
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9068,
+          "length_px": 222.52,
+          "endpoint_a_xy": [
+            699,
+            913
+          ],
+          "endpoint_b_xy": [
+            760,
+            699
+          ],
+          "mask_area_px": 6646,
+          "box_xyxy": [
+            696,
+            699,
+            764,
+            918
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9041,
+          "length_px": 201.06,
+          "endpoint_a_xy": [
+            338,
+            660
+          ],
+          "endpoint_b_xy": [
+            513,
+            561
+          ],
+          "mask_area_px": 6177,
+          "box_xyxy": [
+            338,
+            559,
+            517,
+            665
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.8631,
+          "length_px": 208.66,
+          "endpoint_a_xy": [
+            430,
+            564
+          ],
+          "endpoint_b_xy": [
+            239,
+            648
+          ],
+          "mask_area_px": 5466,
+          "box_xyxy": [
+            239,
+            559,
+            430,
+            653
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8371,
+          "length_px": 242.4,
+          "endpoint_a_xy": [
+            393,
+            429
+          ],
+          "endpoint_b_xy": [
+            634,
+            403
+          ],
+          "mask_area_px": 6659,
+          "box_xyxy": [
+            393,
+            400,
+            636,
+            440
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8306,
+          "length_px": 269.9,
+          "endpoint_a_xy": [
+            227,
+            621
+          ],
+          "endpoint_b_xy": [
+            321,
+            368
+          ],
+          "mask_area_px": 9618,
+          "box_xyxy": [
+            223,
+            368,
+            326,
+            622
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.7865,
+          "length_px": 227.38,
+          "endpoint_a_xy": [
+            592,
+            355
+          ],
+          "endpoint_b_xy": [
+            366,
+            380
+          ],
+          "mask_area_px": 5587,
+          "box_xyxy": [
+            365,
+            345,
+            602,
+            384
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.7693,
+          "length_px": 225.57,
+          "endpoint_a_xy": [
+            282,
+            539
+          ],
+          "endpoint_b_xy": [
+            507,
+            523
+          ],
+          "mask_area_px": 7613,
+          "box_xyxy": [
+            272,
+            505,
+            511,
+            554
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.5427,
+          "length_px": 235.02,
+          "endpoint_a_xy": [
+            266,
+            602
+          ],
+          "endpoint_b_xy": [
+            323,
+            374
+          ],
+          "mask_area_px": 8288,
+          "box_xyxy": [
+            265,
+            373,
+            327,
+            640
+          ]
+        },
+        {
+          "instance": 11,
+          "class_id": 3,
+          "confidence": 0.3581,
+          "length_px": 85.6,
+          "endpoint_a_xy": [
+            329,
+            528
+          ],
+          "endpoint_b_xy": [
+            381,
+            460
+          ],
+          "mask_area_px": 1249,
+          "box_xyxy": [
+            309,
+            459,
+            384,
+            529
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/20250315-16907-56371-004_jpeg.rf.85604bd68c48c122b5cef661e19ea2c7.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9269,
+          "length_px": 217.68,
+          "endpoint_a_xy": [
+            855,
+            751
+          ],
+          "endpoint_b_xy": [
+            747,
+            562
+          ],
+          "mask_area_px": 6100,
+          "box_xyxy": [
+            746,
+            562,
+            863,
+            751
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9227,
+          "length_px": 208.31,
+          "endpoint_a_xy": [
+            397,
+            567
+          ],
+          "endpoint_b_xy": [
+            572,
+            454
+          ],
+          "mask_area_px": 6299,
+          "box_xyxy": [
+            397,
+            454,
+            579,
+            572
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9087,
+          "length_px": 187.07,
+          "endpoint_a_xy": [
+            495,
+            597
+          ],
+          "endpoint_b_xy": [
+            659,
+            507
+          ],
+          "mask_area_px": 4862,
+          "box_xyxy": [
+            495,
+            501,
+            661,
+            601
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.8933,
+          "length_px": 221.54,
+          "endpoint_a_xy": [
+            651,
+            780
+          ],
+          "endpoint_b_xy": [
+            567,
+            575
+          ],
+          "mask_area_px": 6190,
+          "box_xyxy": [
+            566,
+            575,
+            654,
+            780
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.87,
+          "length_px": 234.44,
+          "endpoint_a_xy": [
+            534,
+            904
+          ],
+          "endpoint_b_xy": [
+            765,
+            864
+          ],
+          "mask_area_px": 7961,
+          "box_xyxy": [
+            534,
+            863,
+            765,
+            913
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8673,
+          "length_px": 202.41,
+          "endpoint_a_xy": [
+            477,
+            855
+          ],
+          "endpoint_b_xy": [
+            552,
+            667
+          ],
+          "mask_area_px": 6074,
+          "box_xyxy": [
+            476,
+            665,
+            556,
+            856
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8514,
+          "length_px": 255.95,
+          "endpoint_a_xy": [
+            808,
+            505
+          ],
+          "endpoint_b_xy": [
+            553,
+            483
+          ],
+          "mask_area_px": 7975,
+          "box_xyxy": [
+            553,
+            474,
+            808,
+            518
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.7648,
+          "length_px": 197.29,
+          "endpoint_a_xy": [
+            757,
+            691
+          ],
+          "endpoint_b_xy": [
+            664,
+            517
+          ],
+          "mask_area_px": 3639,
+          "box_xyxy": [
+            664,
+            516,
+            769,
+            693
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.7253,
+          "length_px": 133.96,
+          "endpoint_a_xy": [
+            724,
+            753
+          ],
+          "endpoint_b_xy": [
+            708,
+            620
+          ],
+          "mask_area_px": 3370,
+          "box_xyxy": [
+            698,
+            558,
+            732,
+            755
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.5326,
+          "length_px": 196.71,
+          "endpoint_a_xy": [
+            668,
+            843
+          ],
+          "endpoint_b_xy": [
+            706,
+            650
+          ],
+          "mask_area_px": 5701,
+          "box_xyxy": [
+            657,
+            650,
+            707,
+            843
+          ]
+        },
+        {
+          "instance": 11,
+          "class_id": 3,
+          "confidence": 0.5074,
+          "length_px": 152.12,
+          "endpoint_a_xy": [
+            760,
+            689
+          ],
+          "endpoint_b_xy": [
+            696,
+            551
+          ],
+          "mask_area_px": 3140,
+          "box_xyxy": [
+            696,
+            551,
+            763,
+            689
+          ]
+        },
+        {
+          "instance": 12,
+          "class_id": 3,
+          "confidence": 0.3078,
+          "length_px": 209.16,
+          "endpoint_a_xy": [
+            536,
+            875
+          ],
+          "endpoint_b_xy": [
+            566,
+            668
+          ],
+          "mask_area_px": 6695,
+          "box_xyxy": [
+            535,
+            668,
+            598,
+            875
+          ]
+        },
+        {
+          "instance": 13,
+          "class_id": 3,
+          "confidence": 0.2776,
+          "length_px": 177.9,
+          "endpoint_a_xy": [
+            682,
+            832
+          ],
+          "endpoint_b_xy": [
+            650,
+            657
+          ],
+          "mask_area_px": 5433,
+          "box_xyxy": [
+            641,
+            654,
+            709,
+            833
+          ]
+        },
+        {
+          "instance": 14,
+          "class_id": 3,
+          "confidence": 0.2714,
+          "length_px": 177.5,
+          "endpoint_a_xy": [
+            723,
+            754
+          ],
+          "endpoint_b_xy": [
+            700,
+            578
+          ],
+          "mask_area_px": 2858,
+          "box_xyxy": [
+            693,
+            549,
+            725,
+            763
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/20250315-16907-56371-009_jpeg.rf.a24fe06974aef2a08dbde0da663c260d.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9173,
+          "length_px": 234.62,
+          "endpoint_a_xy": [
+            843,
+            817
+          ],
+          "endpoint_b_xy": [
+            700,
+            631
+          ],
+          "mask_area_px": 6531,
+          "box_xyxy": [
+            697,
+            627,
+            849,
+            820
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9137,
+          "length_px": 295.15,
+          "endpoint_a_xy": [
+            895,
+            604
+          ],
+          "endpoint_b_xy": [
+            642,
+            452
+          ],
+          "mask_area_px": 10389,
+          "box_xyxy": [
+            642,
+            451,
+            895,
+            605
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9112,
+          "length_px": 251.81,
+          "endpoint_a_xy": [
+            777,
+            902
+          ],
+          "endpoint_b_xy": [
+            536,
+            829
+          ],
+          "mask_area_px": 8350,
+          "box_xyxy": [
+            535,
+            829,
+            778,
+            909
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.898,
+          "length_px": 232.38,
+          "endpoint_a_xy": [
+            882,
+            716
+          ],
+          "endpoint_b_xy": [
+            683,
+            596
+          ],
+          "mask_area_px": 7385,
+          "box_xyxy": [
+            674,
+            593,
+            884,
+            726
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.8871,
+          "length_px": 221.69,
+          "endpoint_a_xy": [
+            730,
+            735
+          ],
+          "endpoint_b_xy": [
+            519,
+            667
+          ],
+          "mask_area_px": 6005,
+          "box_xyxy": [
+            519,
+            666,
+            738,
+            755
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8693,
+          "length_px": 183.0,
+          "endpoint_a_xy": [
+            576,
+            817
+          ],
+          "endpoint_b_xy": [
+            737,
+            730
+          ],
+          "mask_area_px": 4696,
+          "box_xyxy": [
+            572,
+            730,
+            737,
+            818
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8657,
+          "length_px": 217.35,
+          "endpoint_a_xy": [
+            578,
+            620
+          ],
+          "endpoint_b_xy": [
+            364,
+            582
+          ],
+          "mask_area_px": 6233,
+          "box_xyxy": [
+            363,
+            582,
+            589,
+            623
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8402,
+          "length_px": 249.8,
+          "endpoint_a_xy": [
+            657,
+            501
+          ],
+          "endpoint_b_xy": [
+            408,
+            481
+          ],
+          "mask_area_px": 7026,
+          "box_xyxy": [
+            408,
+            478,
+            658,
+            517
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.6788,
+          "length_px": 221.1,
+          "endpoint_a_xy": [
+            711,
+            565
+          ],
+          "endpoint_b_xy": [
+            491,
+            543
+          ],
+          "mask_area_px": 6153,
+          "box_xyxy": [
+            491,
+            538,
+            711,
+            580
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.5479,
+          "length_px": 207.71,
+          "endpoint_a_xy": [
+            580,
+            611
+          ],
+          "endpoint_b_xy": [
+            624,
+            408
+          ],
+          "mask_area_px": 5578,
+          "box_xyxy": [
+            577,
+            408,
+            648,
+            623
+          ]
+        },
+        {
+          "instance": 11,
+          "class_id": 3,
+          "confidence": 0.3809,
+          "length_px": 214.11,
+          "endpoint_a_xy": [
+            590,
+            611
+          ],
+          "endpoint_b_xy": [
+            620,
+            399
+          ],
+          "mask_area_px": 5775,
+          "box_xyxy": [
+            589,
+            398,
+            639,
+            663
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/20250315-16910-56378-001_jpeg.rf.eaa631d6e837f92ee1a644cce2db5dba.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9396,
+          "length_px": 117.69,
+          "endpoint_a_xy": [
+            833,
+            580
+          ],
+          "endpoint_b_xy": [
+            756,
+            491
+          ],
+          "mask_area_px": 2102,
+          "box_xyxy": [
+            751,
+            491,
+            836,
+            583
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9259,
+          "length_px": 136.75,
+          "endpoint_a_xy": [
+            800,
+            883
+          ],
+          "endpoint_b_xy": [
+            685,
+            809
+          ],
+          "mask_area_px": 2573,
+          "box_xyxy": [
+            685,
+            808,
+            801,
+            888
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9187,
+          "length_px": 139.61,
+          "endpoint_a_xy": [
+            269,
+            629
+          ],
+          "endpoint_b_xy": [
+            342,
+            510
+          ],
+          "mask_area_px": 2833,
+          "box_xyxy": [
+            268,
+            510,
+            342,
+            630
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.907,
+          "length_px": 148.56,
+          "endpoint_a_xy": [
+            631,
+            404
+          ],
+          "endpoint_b_xy": [
+            496,
+            342
+          ],
+          "mask_area_px": 3303,
+          "box_xyxy": [
+            495,
+            341,
+            633,
+            410
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.902,
+          "length_px": 134.38,
+          "endpoint_a_xy": [
+            788,
+            424
+          ],
+          "endpoint_b_xy": [
+            695,
+            327
+          ],
+          "mask_area_px": 2532,
+          "box_xyxy": [
+            694,
+            327,
+            790,
+            425
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8921,
+          "length_px": 156.95,
+          "endpoint_a_xy": [
+            916,
+            569
+          ],
+          "endpoint_b_xy": [
+            861,
+            422
+          ],
+          "mask_area_px": 3460,
+          "box_xyxy": [
+            859,
+            421,
+            919,
+            572
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8859,
+          "length_px": 126.72,
+          "endpoint_a_xy": [
+            531,
+            530
+          ],
+          "endpoint_b_xy": [
+            582,
+            414
+          ],
+          "mask_area_px": 2405,
+          "box_xyxy": [
+            529,
+            414,
+            583,
+            531
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8827,
+          "length_px": 133.22,
+          "endpoint_a_xy": [
+            804,
+            489
+          ],
+          "endpoint_b_xy": [
+            696,
+            411
+          ],
+          "mask_area_px": 2468,
+          "box_xyxy": [
+            695,
+            409,
+            805,
+            490
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.882,
+          "length_px": 148.85,
+          "endpoint_a_xy": [
+            290,
+            813
+          ],
+          "endpoint_b_xy": [
+            319,
+            667
+          ],
+          "mask_area_px": 3811,
+          "box_xyxy": [
+            279,
+            666,
+            320,
+            814
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.8799,
+          "length_px": 158.86,
+          "endpoint_a_xy": [
+            839,
+            517
+          ],
+          "endpoint_b_xy": [
+            800,
+            363
+          ],
+          "mask_area_px": 3484,
+          "box_xyxy": [
+            799,
+            362,
+            839,
+            518
+          ]
+        },
+        {
+          "instance": 11,
+          "class_id": 3,
+          "confidence": 0.8703,
+          "length_px": 112.36,
+          "endpoint_a_xy": [
+            873,
+            771
+          ],
+          "endpoint_b_xy": [
+            978,
+            731
+          ],
+          "mask_area_px": 2111,
+          "box_xyxy": [
+            858,
+            728,
+            978,
+            776
+          ]
+        },
+        {
+          "instance": 12,
+          "class_id": 3,
+          "confidence": 0.863,
+          "length_px": 140.04,
+          "endpoint_a_xy": [
+            643,
+            763
+          ],
+          "endpoint_b_xy": [
+            660,
+            624
+          ],
+          "mask_area_px": 2560,
+          "box_xyxy": [
+            639,
+            623,
+            662,
+            764
+          ]
+        },
+        {
+          "instance": 13,
+          "class_id": 3,
+          "confidence": 0.8496,
+          "length_px": 135.37,
+          "endpoint_a_xy": [
+            934,
+            813
+          ],
+          "endpoint_b_xy": [
+            820,
+            740
+          ],
+          "mask_area_px": 2371,
+          "box_xyxy": [
+            819,
+            735,
+            935,
+            816
+          ]
+        },
+        {
+          "instance": 14,
+          "class_id": 3,
+          "confidence": 0.8479,
+          "length_px": 138.92,
+          "endpoint_a_xy": [
+            762,
+            760
+          ],
+          "endpoint_b_xy": [
+            778,
+            622
+          ],
+          "mask_area_px": 2897,
+          "box_xyxy": [
+            755,
+            622,
+            780,
+            760
+          ]
+        },
+        {
+          "instance": 15,
+          "class_id": 3,
+          "confidence": 0.8377,
+          "length_px": 130.25,
+          "endpoint_a_xy": [
+            565,
+            907
+          ],
+          "endpoint_b_xy": [
+            547,
+            778
+          ],
+          "mask_area_px": 2474,
+          "box_xyxy": [
+            546,
+            778,
+            570,
+            908
+          ]
+        },
+        {
+          "instance": 16,
+          "class_id": 3,
+          "confidence": 0.8303,
+          "length_px": 138.28,
+          "endpoint_a_xy": [
+            357,
+            907
+          ],
+          "endpoint_b_xy": [
+            332,
+            771
+          ],
+          "mask_area_px": 2508,
+          "box_xyxy": [
+            331,
+            770,
+            362,
+            908
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/31_jpeg.rf.2a81bb7d21e61e9e5adf2a1e252070a3.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9299,
+          "length_px": 156.31,
+          "endpoint_a_xy": [
+            668,
+            1128
+          ],
+          "endpoint_b_xy": [
+            781,
+            1020
+          ],
+          "mask_area_px": 3410,
+          "box_xyxy": [
+            668,
+            1019,
+            781,
+            1132
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9254,
+          "length_px": 155.72,
+          "endpoint_a_xy": [
+            269,
+            915
+          ],
+          "endpoint_b_xy": [
+            374,
+            800
+          ],
+          "mask_area_px": 3185,
+          "box_xyxy": [
+            266,
+            799,
+            375,
+            917
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9098,
+          "length_px": 137.88,
+          "endpoint_a_xy": [
+            624,
+            464
+          ],
+          "endpoint_b_xy": [
+            703,
+            351
+          ],
+          "mask_area_px": 2876,
+          "box_xyxy": [
+            624,
+            350,
+            705,
+            469
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9093,
+          "length_px": 184.38,
+          "endpoint_a_xy": [
+            285,
+            667
+          ],
+          "endpoint_b_xy": [
+            459,
+            606
+          ],
+          "mask_area_px": 4530,
+          "box_xyxy": [
+            285,
+            605,
+            462,
+            672
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9075,
+          "length_px": 167.89,
+          "endpoint_a_xy": [
+            347,
+            787
+          ],
+          "endpoint_b_xy": [
+            242,
+            656
+          ],
+          "mask_area_px": 3414,
+          "box_xyxy": [
+            241,
+            655,
+            347,
+            788
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.9054,
+          "length_px": 152.61,
+          "endpoint_a_xy": [
+            586,
+            681
+          ],
+          "endpoint_b_xy": [
+            679,
+            560
+          ],
+          "mask_area_px": 3039,
+          "box_xyxy": [
+            584,
+            559,
+            680,
+            684
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8992,
+          "length_px": 159.54,
+          "endpoint_a_xy": [
+            601,
+            1127
+          ],
+          "endpoint_b_xy": [
+            663,
+            980
+          ],
+          "mask_area_px": 3336,
+          "box_xyxy": [
+            593,
+            980,
+            664,
+            1128
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8934,
+          "length_px": 159.2,
+          "endpoint_a_xy": [
+            906,
+            756
+          ],
+          "endpoint_b_xy": [
+            1033,
+            660
+          ],
+          "mask_area_px": 4111,
+          "box_xyxy": [
+            906,
+            655,
+            1033,
+            760
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.8832,
+          "length_px": 165.08,
+          "endpoint_a_xy": [
+            827,
+            571
+          ],
+          "endpoint_b_xy": [
+            878,
+            414
+          ],
+          "mask_area_px": 3961,
+          "box_xyxy": [
+            824,
+            414,
+            879,
+            574
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.8678,
+          "length_px": 160.37,
+          "endpoint_a_xy": [
+            259,
+            609
+          ],
+          "endpoint_b_xy": [
+            410,
+            555
+          ],
+          "mask_area_px": 3495,
+          "box_xyxy": [
+            259,
+            555,
+            414,
+            613
+          ]
+        },
+        {
+          "instance": 11,
+          "class_id": 3,
+          "confidence": 0.8635,
+          "length_px": 146.76,
+          "endpoint_a_xy": [
+            694,
+            876
+          ],
+          "endpoint_b_xy": [
+            837,
+            843
+          ],
+          "mask_area_px": 3022,
+          "box_xyxy": [
+            693,
+            842,
+            839,
+            878
+          ]
+        },
+        {
+          "instance": 12,
+          "class_id": 3,
+          "confidence": 0.8432,
+          "length_px": 171.57,
+          "endpoint_a_xy": [
+            642,
+            696
+          ],
+          "endpoint_b_xy": [
+            813,
+            682
+          ],
+          "mask_area_px": 3954,
+          "box_xyxy": [
+            635,
+            675,
+            814,
+            705
+          ]
+        },
+        {
+          "instance": 13,
+          "class_id": 3,
+          "confidence": 0.8134,
+          "length_px": 166.88,
+          "endpoint_a_xy": [
+            1031,
+            805
+          ],
+          "endpoint_b_xy": [
+            866,
+            780
+          ],
+          "mask_area_px": 4309,
+          "box_xyxy": [
+            860,
+            764,
+            1032,
+            806
+          ]
+        },
+        {
+          "instance": 14,
+          "class_id": 3,
+          "confidence": 0.7944,
+          "length_px": 164.94,
+          "endpoint_a_xy": [
+            482,
+            740
+          ],
+          "endpoint_b_xy": [
+            320,
+            709
+          ],
+          "mask_area_px": 2984,
+          "box_xyxy": [
+            320,
+            708,
+            482,
+            743
+          ]
+        },
+        {
+          "instance": 15,
+          "class_id": 3,
+          "confidence": 0.7649,
+          "length_px": 189.0,
+          "endpoint_a_xy": [
+            891,
+            702
+          ],
+          "endpoint_b_xy": [
+            990,
+            541
+          ],
+          "mask_area_px": 2574,
+          "box_xyxy": [
+            890,
+            541,
+            1000,
+            703
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/4_jpeg.rf.5d00676cf8fc8dd9224156723822780b.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9352,
+          "length_px": 286.09,
+          "endpoint_a_xy": [
+            743,
+            661
+          ],
+          "endpoint_b_xy": [
+            934,
+            448
+          ],
+          "mask_area_px": 9982,
+          "box_xyxy": [
+            742,
+            448,
+            941,
+            668
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9315,
+          "length_px": 258.38,
+          "endpoint_a_xy": [
+            567,
+            455
+          ],
+          "endpoint_b_xy": [
+            811,
+            370
+          ],
+          "mask_area_px": 9383,
+          "box_xyxy": [
+            566,
+            367,
+            811,
+            464
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9233,
+          "length_px": 331.8,
+          "endpoint_a_xy": [
+            463,
+            460
+          ],
+          "endpoint_b_xy": [
+            236,
+            702
+          ],
+          "mask_area_px": 12845,
+          "box_xyxy": [
+            235,
+            460,
+            464,
+            708
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.8992,
+          "length_px": 288.38,
+          "endpoint_a_xy": [
+            968,
+            918
+          ],
+          "endpoint_b_xy": [
+            1005,
+            632
+          ],
+          "mask_area_px": 10548,
+          "box_xyxy": [
+            953,
+            632,
+            1012,
+            919
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.8987,
+          "length_px": 338.21,
+          "endpoint_a_xy": [
+            672,
+            1094
+          ],
+          "endpoint_b_xy": [
+            575,
+            770
+          ],
+          "mask_area_px": 14467,
+          "box_xyxy": [
+            568,
+            770,
+            678,
+            1094
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8832,
+          "length_px": 332.05,
+          "endpoint_a_xy": [
+            606,
+            1156
+          ],
+          "endpoint_b_xy": [
+            344,
+            952
+          ],
+          "mask_area_px": 12517,
+          "box_xyxy": [
+            344,
+            952,
+            609,
+            1164
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8822,
+          "length_px": 347.59,
+          "endpoint_a_xy": [
+            688,
+            1124
+          ],
+          "endpoint_b_xy": [
+            981,
+            937
+          ],
+          "mask_area_px": 16583,
+          "box_xyxy": [
+            687,
+            937,
+            982,
+            1125
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8763,
+          "length_px": 359.61,
+          "endpoint_a_xy": [
+            616,
+            1129
+          ],
+          "endpoint_b_xy": [
+            350,
+            887
+          ],
+          "mask_area_px": 14186,
+          "box_xyxy": [
+            349,
+            883,
+            627,
+            1131
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.8247,
+          "length_px": 282.54,
+          "endpoint_a_xy": [
+            920,
+            922
+          ],
+          "endpoint_b_xy": [
+            655,
+            824
+          ],
+          "mask_area_px": 10463,
+          "box_xyxy": [
+            655,
+            816,
+            948,
+            923
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.8155,
+          "length_px": 300.89,
+          "endpoint_a_xy": [
+            564,
+            1017
+          ],
+          "endpoint_b_xy": [
+            500,
+            723
+          ],
+          "mask_area_px": 10678,
+          "box_xyxy": [
+            492,
+            716,
+            578,
+            1018
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/5txNd16vlPvenePMJgZDdkDNQ8MwkJbExakpzy7A_jpeg.rf.22c9b3a20f4afd5464028d0a3db11226.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.8745,
+          "length_px": 128.69,
+          "endpoint_a_xy": [
+            845,
+            880
+          ],
+          "endpoint_b_xy": [
+            726,
+            831
+          ],
+          "mask_area_px": 2607,
+          "box_xyxy": [
+            726,
+            831,
+            845,
+            885
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.8681,
+          "length_px": 134.65,
+          "endpoint_a_xy": [
+            259,
+            909
+          ],
+          "endpoint_b_xy": [
+            322,
+            790
+          ],
+          "mask_area_px": 2601,
+          "box_xyxy": [
+            258,
+            790,
+            323,
+            910
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.8601,
+          "length_px": 93.6,
+          "endpoint_a_xy": [
+            929,
+            294
+          ],
+          "endpoint_b_xy": [
+            854,
+            238
+          ],
+          "mask_area_px": 1485,
+          "box_xyxy": [
+            854,
+            238,
+            929,
+            295
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.8598,
+          "length_px": 110.14,
+          "endpoint_a_xy": [
+            326,
+            320
+          ],
+          "endpoint_b_xy": [
+            429,
+            281
+          ],
+          "mask_area_px": 1926,
+          "box_xyxy": [
+            326,
+            279,
+            429,
+            321
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.8583,
+          "length_px": 134.17,
+          "endpoint_a_xy": [
+            847,
+            668
+          ],
+          "endpoint_b_xy": [
+            818,
+            537
+          ],
+          "mask_area_px": 2835,
+          "box_xyxy": [
+            818,
+            536,
+            853,
+            669
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8332,
+          "length_px": 107.94,
+          "endpoint_a_xy": [
+            902,
+            406
+          ],
+          "endpoint_b_xy": [
+            927,
+            301
+          ],
+          "mask_area_px": 1823,
+          "box_xyxy": [
+            902,
+            300,
+            928,
+            407
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8308,
+          "length_px": 125.88,
+          "endpoint_a_xy": [
+            941,
+            840
+          ],
+          "endpoint_b_xy": [
+            910,
+            718
+          ],
+          "mask_area_px": 2357,
+          "box_xyxy": [
+            910,
+            718,
+            944,
+            840
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8273,
+          "length_px": 101.87,
+          "endpoint_a_xy": [
+            432,
+            899
+          ],
+          "endpoint_b_xy": [
+            345,
+            846
+          ],
+          "mask_area_px": 1690,
+          "box_xyxy": [
+            345,
+            846,
+            434,
+            899
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.6462,
+          "length_px": 70.01,
+          "endpoint_a_xy": [
+            321,
+            908
+          ],
+          "endpoint_b_xy": [
+            347,
+            843
+          ],
+          "mask_area_px": 1214,
+          "box_xyxy": [
+            320,
+            842,
+            348,
+            908
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/6_jpeg.rf.b8fe6a8d9b2f6870b44d443640f07f79.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9303,
+          "length_px": 290.13,
+          "endpoint_a_xy": [
+            698,
+            573
+          ],
+          "endpoint_b_xy": [
+            420,
+            490
+          ],
+          "mask_area_px": 10541,
+          "box_xyxy": [
+            419,
+            490,
+            699,
+            587
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9154,
+          "length_px": 340.24,
+          "endpoint_a_xy": [
+            565,
+            852
+          ],
+          "endpoint_b_xy": [
+            268,
+            686
+          ],
+          "mask_area_px": 13930,
+          "box_xyxy": [
+            268,
+            678,
+            566,
+            856
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9139,
+          "length_px": 354.38,
+          "endpoint_a_xy": [
+            643,
+            779
+          ],
+          "endpoint_b_xy": [
+            791,
+            457
+          ],
+          "mask_area_px": 14280,
+          "box_xyxy": [
+            640,
+            457,
+            800,
+            785
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9122,
+          "length_px": 325.5,
+          "endpoint_a_xy": [
+            603,
+            684
+          ],
+          "endpoint_b_xy": [
+            288,
+            602
+          ],
+          "mask_area_px": 12645,
+          "box_xyxy": [
+            287,
+            594,
+            603,
+            690
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.8862,
+          "length_px": 309.97,
+          "endpoint_a_xy": [
+            740,
+            771
+          ],
+          "endpoint_b_xy": [
+            844,
+            479
+          ],
+          "mask_area_px": 11315,
+          "box_xyxy": [
+            735,
+            478,
+            851,
+            782
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8432,
+          "length_px": 351.16,
+          "endpoint_a_xy": [
+            771,
+            869
+          ],
+          "endpoint_b_xy": [
+            899,
+            542
+          ],
+          "mask_area_px": 13355,
+          "box_xyxy": [
+            768,
+            542,
+            900,
+            875
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8312,
+          "length_px": 354.94,
+          "endpoint_a_xy": [
+            867,
+            864
+          ],
+          "endpoint_b_xy": [
+            926,
+            514
+          ],
+          "mask_area_px": 16470,
+          "box_xyxy": [
+            851,
+            513,
+            930,
+            871
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.7425,
+          "length_px": 340.81,
+          "endpoint_a_xy": [
+            801,
+            443
+          ],
+          "endpoint_b_xy": [
+            469,
+            366
+          ],
+          "mask_area_px": 18236,
+          "box_xyxy": [
+            469,
+            335,
+            802,
+            444
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.2876,
+          "length_px": 328.67,
+          "endpoint_a_xy": [
+            495,
+            956
+          ],
+          "endpoint_b_xy": [
+            243,
+            745
+          ],
+          "mask_area_px": 17707,
+          "box_xyxy": [
+            243,
+            745,
+            496,
+            971
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/9_jpeg.rf.91569ec1dddf22bf0bb630db272ba37f.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9372,
+          "length_px": 270.03,
+          "endpoint_a_xy": [
+            716,
+            533
+          ],
+          "endpoint_b_xy": [
+            583,
+            298
+          ],
+          "mask_area_px": 8744,
+          "box_xyxy": [
+            579,
+            298,
+            718,
+            536
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9316,
+          "length_px": 275.04,
+          "endpoint_a_xy": [
+            938,
+            445
+          ],
+          "endpoint_b_xy": [
+            692,
+            322
+          ],
+          "mask_area_px": 10415,
+          "box_xyxy": [
+            691,
+            319,
+            939,
+            453
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9286,
+          "length_px": 277.49,
+          "endpoint_a_xy": [
+            707,
+            982
+          ],
+          "endpoint_b_xy": [
+            848,
+            743
+          ],
+          "mask_area_px": 10179,
+          "box_xyxy": [
+            700,
+            743,
+            853,
+            984
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9252,
+          "length_px": 239.18,
+          "endpoint_a_xy": [
+            487,
+            747
+          ],
+          "endpoint_b_xy": [
+            304,
+            593
+          ],
+          "mask_area_px": 7507,
+          "box_xyxy": [
+            302,
+            590,
+            490,
+            750
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9218,
+          "length_px": 260.57,
+          "endpoint_a_xy": [
+            725,
+            677
+          ],
+          "endpoint_b_xy": [
+            972,
+            594
+          ],
+          "mask_area_px": 8815,
+          "box_xyxy": [
+            725,
+            586,
+            972,
+            683
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.9211,
+          "length_px": 284.61,
+          "endpoint_a_xy": [
+            428,
+            595
+          ],
+          "endpoint_b_xy": [
+            601,
+            369
+          ],
+          "mask_area_px": 10162,
+          "box_xyxy": [
+            424,
+            369,
+            601,
+            599
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.9196,
+          "length_px": 260.4,
+          "endpoint_a_xy": [
+            304,
+            546
+          ],
+          "endpoint_b_xy": [
+            495,
+            369
+          ],
+          "mask_area_px": 8707,
+          "box_xyxy": [
+            303,
+            369,
+            502,
+            550
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.9171,
+          "length_px": 287.77,
+          "endpoint_a_xy": [
+            445,
+            946
+          ],
+          "endpoint_b_xy": [
+            718,
+            855
+          ],
+          "mask_area_px": 10421,
+          "box_xyxy": [
+            444,
+            853,
+            718,
+            950
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.9142,
+          "length_px": 265.73,
+          "endpoint_a_xy": [
+            558,
+            870
+          ],
+          "endpoint_b_xy": [
+            311,
+            772
+          ],
+          "mask_area_px": 8442,
+          "box_xyxy": [
+            310,
+            767,
+            559,
+            872
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.9041,
+          "length_px": 280.83,
+          "endpoint_a_xy": [
+            679,
+            548
+          ],
+          "endpoint_b_xy": [
+            958,
+            516
+          ],
+          "mask_area_px": 9365,
+          "box_xyxy": [
+            678,
+            503,
+            959,
+            554
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/Hbosdr7JHgXi5YmNTix4HgUxUdGa503AJhG50JbG_jpeg.rf.3b538c67526e7bdcd19d3b285d318a06.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9062,
+          "length_px": 146.39,
+          "endpoint_a_xy": [
+            803,
+            589
+          ],
+          "endpoint_b_xy": [
+            908,
+            487
+          ],
+          "mask_area_px": 2738,
+          "box_xyxy": [
+            802,
+            486,
+            909,
+            591
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.8825,
+          "length_px": 131.55,
+          "endpoint_a_xy": [
+            859,
+            935
+          ],
+          "endpoint_b_xy": [
+            900,
+            810
+          ],
+          "mask_area_px": 2553,
+          "box_xyxy": [
+            858,
+            809,
+            901,
+            935
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.8705,
+          "length_px": 139.14,
+          "endpoint_a_xy": [
+            860,
+            523
+          ],
+          "endpoint_b_xy": [
+            816,
+            391
+          ],
+          "mask_area_px": 2868,
+          "box_xyxy": [
+            816,
+            391,
+            864,
+            525
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.8683,
+          "length_px": 119.67,
+          "endpoint_a_xy": [
+            650,
+            511
+          ],
+          "endpoint_b_xy": [
+            730,
+            422
+          ],
+          "mask_area_px": 2001,
+          "box_xyxy": [
+            650,
+            421,
+            731,
+            512
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.8681,
+          "length_px": 130.38,
+          "endpoint_a_xy": [
+            329,
+            938
+          ],
+          "endpoint_b_xy": [
+            439,
+            868
+          ],
+          "mask_area_px": 2424,
+          "box_xyxy": [
+            328,
+            867,
+            439,
+            938
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8402,
+          "length_px": 137.64,
+          "endpoint_a_xy": [
+            594,
+            644
+          ],
+          "endpoint_b_xy": [
+            726,
+            605
+          ],
+          "mask_area_px": 2745,
+          "box_xyxy": [
+            593,
+            605,
+            726,
+            645
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8065,
+          "length_px": 128.27,
+          "endpoint_a_xy": [
+            296,
+            845
+          ],
+          "endpoint_b_xy": [
+            423,
+            827
+          ],
+          "mask_area_px": 2397,
+          "box_xyxy": [
+            295,
+            820,
+            424,
+            846
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.7932,
+          "length_px": 130.55,
+          "endpoint_a_xy": [
+            462,
+            415
+          ],
+          "endpoint_b_xy": [
+            332,
+            403
+          ],
+          "mask_area_px": 2484,
+          "box_xyxy": [
+            331,
+            396,
+            462,
+            419
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.7791,
+          "length_px": 120.21,
+          "endpoint_a_xy": [
+            519,
+            926
+          ],
+          "endpoint_b_xy": [
+            502,
+            807
+          ],
+          "mask_area_px": 2286,
+          "box_xyxy": [
+            500,
+            806,
+            522,
+            926
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_6335_mov-0002_jpg.rf.1b55c2f03484a9584a7d923000f3b35f.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9364,
+          "length_px": 235.87,
+          "endpoint_a_xy": [
+            775,
+            824
+          ],
+          "endpoint_b_xy": [
+            912,
+            632
+          ],
+          "mask_area_px": 6923,
+          "box_xyxy": [
+            771,
+            631,
+            920,
+            829
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9322,
+          "length_px": 274.37,
+          "endpoint_a_xy": [
+            376,
+            371
+          ],
+          "endpoint_b_xy": [
+            572,
+            179
+          ],
+          "mask_area_px": 8578,
+          "box_xyxy": [
+            371,
+            176,
+            580,
+            381
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9281,
+          "length_px": 243.66,
+          "endpoint_a_xy": [
+            727,
+            687
+          ],
+          "endpoint_b_xy": [
+            925,
+            545
+          ],
+          "mask_area_px": 7414,
+          "box_xyxy": [
+            723,
+            539,
+            929,
+            695
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9176,
+          "length_px": 274.12,
+          "endpoint_a_xy": [
+            353,
+            1021
+          ],
+          "endpoint_b_xy": [
+            625,
+            987
+          ],
+          "mask_area_px": 9263,
+          "box_xyxy": [
+            353,
+            984,
+            628,
+            1039
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9137,
+          "length_px": 242.37,
+          "endpoint_a_xy": [
+            340,
+            381
+          ],
+          "endpoint_b_xy": [
+            461,
+            171
+          ],
+          "mask_area_px": 7187,
+          "box_xyxy": [
+            339,
+            170,
+            469,
+            385
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.9124,
+          "length_px": 248.62,
+          "endpoint_a_xy": [
+            879,
+            1076
+          ],
+          "endpoint_b_xy": [
+            843,
+            830
+          ],
+          "mask_area_px": 7578,
+          "box_xyxy": [
+            832,
+            824,
+            890,
+            1076
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.9116,
+          "length_px": 233.89,
+          "endpoint_a_xy": [
+            347,
+            986
+          ],
+          "endpoint_b_xy": [
+            556,
+            881
+          ],
+          "mask_area_px": 6859,
+          "box_xyxy": [
+            346,
+            881,
+            562,
+            986
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8688,
+          "length_px": 197.91,
+          "endpoint_a_xy": [
+            879,
+            275
+          ],
+          "endpoint_b_xy": [
+            710,
+            172
+          ],
+          "mask_area_px": 5305,
+          "box_xyxy": [
+            709,
+            168,
+            908,
+            293
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.8687,
+          "length_px": 241.6,
+          "endpoint_a_xy": [
+            959,
+            401
+          ],
+          "endpoint_b_xy": [
+            882,
+            172
+          ],
+          "mask_area_px": 8148,
+          "box_xyxy": [
+            878,
+            172,
+            963,
+            402
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.8163,
+          "length_px": 260.05,
+          "endpoint_a_xy": [
+            661,
+            359
+          ],
+          "endpoint_b_xy": [
+            910,
+            284
+          ],
+          "mask_area_px": 8654,
+          "box_xyxy": [
+            660,
+            273,
+            912,
+            364
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_6810_jpg.rf.c017e601f1de8101d31295218cad534d.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9211,
+          "length_px": 368.62,
+          "endpoint_a_xy": [
+            563,
+            517
+          ],
+          "endpoint_b_xy": [
+            764,
+            208
+          ],
+          "mask_area_px": 16001,
+          "box_xyxy": [
+            545,
+            207,
+            784,
+            536
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9185,
+          "length_px": 325.68,
+          "endpoint_a_xy": [
+            319,
+            689
+          ],
+          "endpoint_b_xy": [
+            598,
+            521
+          ],
+          "mask_area_px": 14232,
+          "box_xyxy": [
+            318,
+            504,
+            629,
+            696
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9082,
+          "length_px": 382.0,
+          "endpoint_a_xy": [
+            696,
+            754
+          ],
+          "endpoint_b_xy": [
+            1001,
+            524
+          ],
+          "mask_area_px": 16076,
+          "box_xyxy": [
+            696,
+            520,
+            1001,
+            765
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9054,
+          "length_px": 326.48,
+          "endpoint_a_xy": [
+            339,
+            921
+          ],
+          "endpoint_b_xy": [
+            524,
+            652
+          ],
+          "mask_area_px": 14507,
+          "box_xyxy": [
+            335,
+            604,
+            572,
+            927
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9021,
+          "length_px": 375.11,
+          "endpoint_a_xy": [
+            830,
+            528
+          ],
+          "endpoint_b_xy": [
+            942,
+            170
+          ],
+          "mask_area_px": 18919,
+          "box_xyxy": [
+            803,
+            155,
+            954,
+            533
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8962,
+          "length_px": 311.51,
+          "endpoint_a_xy": [
+            966,
+            152
+          ],
+          "endpoint_b_xy": [
+            662,
+            84
+          ],
+          "mask_area_px": 16936,
+          "box_xyxy": [
+            659,
+            72,
+            966,
+            175
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8768,
+          "length_px": 405.03,
+          "endpoint_a_xy": [
+            322,
+            1113
+          ],
+          "endpoint_b_xy": [
+            539,
+            771
+          ],
+          "mask_area_px": 16283,
+          "box_xyxy": [
+            311,
+            769,
+            543,
+            1113
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8696,
+          "length_px": 414.01,
+          "endpoint_a_xy": [
+            412,
+            542
+          ],
+          "endpoint_b_xy": [
+            313,
+            140
+          ],
+          "mask_area_px": 23956,
+          "box_xyxy": [
+            312,
+            139,
+            456,
+            550
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.8601,
+          "length_px": 354.82,
+          "endpoint_a_xy": [
+            484,
+            1125
+          ],
+          "endpoint_b_xy": [
+            548,
+            776
+          ],
+          "mask_area_px": 16219,
+          "box_xyxy": [
+            457,
+            758,
+            548,
+            1125
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.8539,
+          "length_px": 401.76,
+          "endpoint_a_xy": [
+            565,
+            1105
+          ],
+          "endpoint_b_xy": [
+            612,
+            706
+          ],
+          "mask_area_px": 18628,
+          "box_xyxy": [
+            555,
+            705,
+            625,
+            1106
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_6811_jpg.rf.c444c689788df5958a475c09e3941e59.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9298,
+          "length_px": 422.48,
+          "endpoint_a_xy": [
+            558,
+            505
+          ],
+          "endpoint_b_xy": [
+            317,
+            158
+          ],
+          "mask_area_px": 18342,
+          "box_xyxy": [
+            311,
+            155,
+            565,
+            509
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9165,
+          "length_px": 385.01,
+          "endpoint_a_xy": [
+            551,
+            685
+          ],
+          "endpoint_b_xy": [
+            306,
+            388
+          ],
+          "mask_area_px": 15280,
+          "box_xyxy": [
+            299,
+            388,
+            559,
+            697
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9151,
+          "length_px": 412.48,
+          "endpoint_a_xy": [
+            991,
+            1051
+          ],
+          "endpoint_b_xy": [
+            666,
+            797
+          ],
+          "mask_area_px": 17792,
+          "box_xyxy": [
+            665,
+            797,
+            993,
+            1058
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9093,
+          "length_px": 384.04,
+          "endpoint_a_xy": [
+            957,
+            1146
+          ],
+          "endpoint_b_xy": [
+            680,
+            880
+          ],
+          "mask_area_px": 15797,
+          "box_xyxy": [
+            673,
+            877,
+            966,
+            1153
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9062,
+          "length_px": 389.64,
+          "endpoint_a_xy": [
+            762,
+            1032
+          ],
+          "endpoint_b_xy": [
+            398,
+            893
+          ],
+          "mask_area_px": 15960,
+          "box_xyxy": [
+            398,
+            893,
+            763,
+            1063
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.9042,
+          "length_px": 300.75,
+          "endpoint_a_xy": [
+            962,
+            171
+          ],
+          "endpoint_b_xy": [
+            670,
+            99
+          ],
+          "mask_area_px": 15602,
+          "box_xyxy": [
+            668,
+            95,
+            962,
+            192
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8894,
+          "length_px": 398.13,
+          "endpoint_a_xy": [
+            668,
+            692
+          ],
+          "endpoint_b_xy": [
+            638,
+            295
+          ],
+          "mask_area_px": 16825,
+          "box_xyxy": [
+            627,
+            294,
+            694,
+            698
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8888,
+          "length_px": 375.47,
+          "endpoint_a_xy": [
+            921,
+            549
+          ],
+          "endpoint_b_xy": [
+            964,
+            176
+          ],
+          "mask_area_px": 17873,
+          "box_xyxy": [
+            890,
+            176,
+            964,
+            550
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.8869,
+          "length_px": 377.68,
+          "endpoint_a_xy": [
+            398,
+            1132
+          ],
+          "endpoint_b_xy": [
+            287,
+            771
+          ],
+          "mask_area_px": 15470,
+          "box_xyxy": [
+            287,
+            765,
+            422,
+            1132
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.8618,
+          "length_px": 390.96,
+          "endpoint_a_xy": [
+            515,
+            1119
+          ],
+          "endpoint_b_xy": [
+            322,
+            779
+          ],
+          "mask_area_px": 17485,
+          "box_xyxy": [
+            309,
+            779,
+            524,
+            1120
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_6815_jpg.rf.a14665d5e06e90c88334ff4a2676897e.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9269,
+          "length_px": 368.29,
+          "endpoint_a_xy": [
+            844,
+            1024
+          ],
+          "endpoint_b_xy": [
+            739,
+            671
+          ],
+          "mask_area_px": 14889,
+          "box_xyxy": [
+            735,
+            661,
+            864,
+            1024
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9248,
+          "length_px": 399.01,
+          "endpoint_a_xy": [
+            486,
+            364
+          ],
+          "endpoint_b_xy": [
+            804,
+            123
+          ],
+          "mask_area_px": 17135,
+          "box_xyxy": [
+            484,
+            120,
+            810,
+            371
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9175,
+          "length_px": 379.1,
+          "endpoint_a_xy": [
+            774,
+            498
+          ],
+          "endpoint_b_xy": [
+            907,
+            143
+          ],
+          "mask_area_px": 15882,
+          "box_xyxy": [
+            773,
+            142,
+            916,
+            510
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9134,
+          "length_px": 370.47,
+          "endpoint_a_xy": [
+            468,
+            896
+          ],
+          "endpoint_b_xy": [
+            369,
+            539
+          ],
+          "mask_area_px": 16422,
+          "box_xyxy": [
+            350,
+            538,
+            478,
+            899
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9118,
+          "length_px": 372.08,
+          "endpoint_a_xy": [
+            559,
+            1054
+          ],
+          "endpoint_b_xy": [
+            321,
+            768
+          ],
+          "mask_area_px": 14722,
+          "box_xyxy": [
+            317,
+            765,
+            560,
+            1054
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.9115,
+          "length_px": 378.9,
+          "endpoint_a_xy": [
+            596,
+            963
+          ],
+          "endpoint_b_xy": [
+            524,
+            591
+          ],
+          "mask_area_px": 16626,
+          "box_xyxy": [
+            511,
+            591,
+            599,
+            969
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.9014,
+          "length_px": 359.22,
+          "endpoint_a_xy": [
+            960,
+            1110
+          ],
+          "endpoint_b_xy": [
+            899,
+            756
+          ],
+          "mask_area_px": 15132,
+          "box_xyxy": [
+            891,
+            749,
+            980,
+            1111
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8953,
+          "length_px": 410.48,
+          "endpoint_a_xy": [
+            467,
+            563
+          ],
+          "endpoint_b_xy": [
+            384,
+            161
+          ],
+          "mask_area_px": 20467,
+          "box_xyxy": [
+            361,
+            161,
+            473,
+            571
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.8688,
+          "length_px": 371.98,
+          "endpoint_a_xy": [
+            363,
+            1086
+          ],
+          "endpoint_b_xy": [
+            734,
+            1059
+          ],
+          "mask_area_px": 19608,
+          "box_xyxy": [
+            363,
+            1029,
+            734,
+            1122
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.8555,
+          "length_px": 401.13,
+          "endpoint_a_xy": [
+            917,
+            946
+          ],
+          "endpoint_b_xy": [
+            967,
+            548
+          ],
+          "mask_area_px": 17536,
+          "box_xyxy": [
+            917,
+            547,
+            983,
+            946
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_6819_jpg.rf.d49296fc647ea0f756f35757fa0c15f0.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9402,
+          "length_px": 412.46,
+          "endpoint_a_xy": [
+            562,
+            443
+          ],
+          "endpoint_b_xy": [
+            844,
+            142
+          ],
+          "mask_area_px": 18325,
+          "box_xyxy": [
+            562,
+            142,
+            854,
+            444
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9315,
+          "length_px": 409.79,
+          "endpoint_a_xy": [
+            301,
+            421
+          ],
+          "endpoint_b_xy": [
+            569,
+            111
+          ],
+          "mask_area_px": 19403,
+          "box_xyxy": [
+            301,
+            111,
+            583,
+            426
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9163,
+          "length_px": 367.92,
+          "endpoint_a_xy": [
+            321,
+            830
+          ],
+          "endpoint_b_xy": [
+            599,
+            589
+          ],
+          "mask_area_px": 15399,
+          "box_xyxy": [
+            321,
+            585,
+            607,
+            842
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9153,
+          "length_px": 401.62,
+          "endpoint_a_xy": [
+            735,
+            540
+          ],
+          "endpoint_b_xy": [
+            979,
+            221
+          ],
+          "mask_area_px": 17001,
+          "box_xyxy": [
+            734,
+            221,
+            990,
+            547
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.8736,
+          "length_px": 376.49,
+          "endpoint_a_xy": [
+            356,
+            933
+          ],
+          "endpoint_b_xy": [
+            728,
+            875
+          ],
+          "mask_area_px": 18497,
+          "box_xyxy": [
+            356,
+            870,
+            741,
+            954
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8713,
+          "length_px": 402.85,
+          "endpoint_a_xy": [
+            341,
+            1053
+          ],
+          "endpoint_b_xy": [
+            732,
+            956
+          ],
+          "mask_area_px": 18472,
+          "box_xyxy": [
+            341,
+            949,
+            732,
+            1059
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8587,
+          "length_px": 373.55,
+          "endpoint_a_xy": [
+            1003,
+            1095
+          ],
+          "endpoint_b_xy": [
+            807,
+            777
+          ],
+          "mask_area_px": 17803,
+          "box_xyxy": [
+            806,
+            776,
+            1011,
+            1100
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8491,
+          "length_px": 328.59,
+          "endpoint_a_xy": [
+            677,
+            1075
+          ],
+          "endpoint_b_xy": [
+            364,
+            1175
+          ],
+          "mask_area_px": 15662,
+          "box_xyxy": [
+            363,
+            1062,
+            697,
+            1182
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.7994,
+          "length_px": 369.55,
+          "endpoint_a_xy": [
+            960,
+            1159
+          ],
+          "endpoint_b_xy": [
+            618,
+            1019
+          ],
+          "mask_area_px": 18495,
+          "box_xyxy": [
+            611,
+            1014,
+            961,
+            1161
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.5621,
+          "length_px": 347.05,
+          "endpoint_a_xy": [
+            761,
+            1116
+          ],
+          "endpoint_b_xy": [
+            932,
+            814
+          ],
+          "mask_area_px": 10949,
+          "box_xyxy": [
+            752,
+            794,
+            950,
+            1152
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_6860_jpg.rf.8e1e849e3b1dc69350b0a68e1954bcdd.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9298,
+          "length_px": 385.24,
+          "endpoint_a_xy": [
+            794,
+            484
+          ],
+          "endpoint_b_xy": [
+            977,
+            145
+          ],
+          "mask_area_px": 14274,
+          "box_xyxy": [
+            789,
+            144,
+            991,
+            496
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9249,
+          "length_px": 392.05,
+          "endpoint_a_xy": [
+            389,
+            678
+          ],
+          "endpoint_b_xy": [
+            493,
+            300
+          ],
+          "mask_area_px": 17511,
+          "box_xyxy": [
+            386,
+            299,
+            508,
+            687
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9181,
+          "length_px": 338.6,
+          "endpoint_a_xy": [
+            558,
+            997
+          ],
+          "endpoint_b_xy": [
+            715,
+            697
+          ],
+          "mask_area_px": 13786,
+          "box_xyxy": [
+            546,
+            674,
+            718,
+            1001
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9099,
+          "length_px": 383.31,
+          "endpoint_a_xy": [
+            940,
+            773
+          ],
+          "endpoint_b_xy": [
+            898,
+            392
+          ],
+          "mask_area_px": 16517,
+          "box_xyxy": [
+            882,
+            391,
+            950,
+            779
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9095,
+          "length_px": 382.6,
+          "endpoint_a_xy": [
+            322,
+            1131
+          ],
+          "endpoint_b_xy": [
+            505,
+            795
+          ],
+          "mask_area_px": 14936,
+          "box_xyxy": [
+            311,
+            794,
+            508,
+            1137
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.9039,
+          "length_px": 348.28,
+          "endpoint_a_xy": [
+            331,
+            508
+          ],
+          "endpoint_b_xy": [
+            345,
+            160
+          ],
+          "mask_area_px": 14095,
+          "box_xyxy": [
+            292,
+            159,
+            363,
+            508
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8982,
+          "length_px": 371.8,
+          "endpoint_a_xy": [
+            689,
+            729
+          ],
+          "endpoint_b_xy": [
+            742,
+            361
+          ],
+          "mask_area_px": 15323,
+          "box_xyxy": [
+            688,
+            361,
+            750,
+            730
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8597,
+          "length_px": 379.47,
+          "endpoint_a_xy": [
+            893,
+            315
+          ],
+          "endpoint_b_xy": [
+            533,
+            195
+          ],
+          "mask_area_px": 17105,
+          "box_xyxy": [
+            533,
+            186,
+            900,
+            316
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.8125,
+          "length_px": 327.91,
+          "endpoint_a_xy": [
+            554,
+            1104
+          ],
+          "endpoint_b_xy": [
+            492,
+            782
+          ],
+          "mask_area_px": 11499,
+          "box_xyxy": [
+            479,
+            782,
+            570,
+            1106
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.5553,
+          "length_px": 300.11,
+          "endpoint_a_xy": [
+            687,
+            1188
+          ],
+          "endpoint_b_xy": [
+            971,
+            1091
+          ],
+          "mask_area_px": 15147,
+          "box_xyxy": [
+            670,
+            1074,
+            972,
+            1195
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_7111_jpg.rf.98e474643ed9a01da0f812c151118eec.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9237,
+          "length_px": 108.98,
+          "endpoint_a_xy": [
+            566,
+            804
+          ],
+          "endpoint_b_xy": [
+            486,
+            730
+          ],
+          "mask_area_px": 1520,
+          "box_xyxy": [
+            486,
+            729,
+            568,
+            809
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9183,
+          "length_px": 97.95,
+          "endpoint_a_xy": [
+            534,
+            500
+          ],
+          "endpoint_b_xy": [
+            609,
+            437
+          ],
+          "mask_area_px": 1261,
+          "box_xyxy": [
+            533,
+            436,
+            611,
+            504
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.902,
+          "length_px": 111.49,
+          "endpoint_a_xy": [
+            747,
+            764
+          ],
+          "endpoint_b_xy": [
+            792,
+            662
+          ],
+          "mask_area_px": 1691,
+          "box_xyxy": [
+            746,
+            657,
+            793,
+            764
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.8935,
+          "length_px": 102.79,
+          "endpoint_a_xy": [
+            529,
+            878
+          ],
+          "endpoint_b_xy": [
+            627,
+            847
+          ],
+          "mask_area_px": 1480,
+          "box_xyxy": [
+            528,
+            847,
+            633,
+            878
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.8888,
+          "length_px": 103.25,
+          "endpoint_a_xy": [
+            702,
+            772
+          ],
+          "endpoint_b_xy": [
+            648,
+            684
+          ],
+          "mask_area_px": 1410,
+          "box_xyxy": [
+            648,
+            684,
+            705,
+            775
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8632,
+          "length_px": 122.89,
+          "endpoint_a_xy": [
+            496,
+            524
+          ],
+          "endpoint_b_xy": [
+            566,
+            423
+          ],
+          "mask_area_px": 1876,
+          "box_xyxy": [
+            494,
+            422,
+            568,
+            527
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8502,
+          "length_px": 90.82,
+          "endpoint_a_xy": [
+            598,
+            597
+          ],
+          "endpoint_b_xy": [
+            630,
+            512
+          ],
+          "mask_area_px": 1211,
+          "box_xyxy": [
+            598,
+            511,
+            630,
+            601
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.7374,
+          "length_px": 96.03,
+          "endpoint_a_xy": [
+            756,
+            685
+          ],
+          "endpoint_b_xy": [
+            742,
+            590
+          ],
+          "mask_area_px": 1348,
+          "box_xyxy": [
+            742,
+            589,
+            760,
+            686
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_7118_jpg.rf.d21ed7896f8574fa6d9b48cb7412e42b.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9167,
+          "length_px": 109.62,
+          "endpoint_a_xy": [
+            695,
+            491
+          ],
+          "endpoint_b_xy": [
+            616,
+            415
+          ],
+          "mask_area_px": 1420,
+          "box_xyxy": [
+            616,
+            415,
+            700,
+            494
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9165,
+          "length_px": 111.83,
+          "endpoint_a_xy": [
+            622,
+            604
+          ],
+          "endpoint_b_xy": [
+            534,
+            535
+          ],
+          "mask_area_px": 1526,
+          "box_xyxy": [
+            534,
+            533,
+            625,
+            608
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.8982,
+          "length_px": 121.2,
+          "endpoint_a_xy": [
+            598,
+            524
+          ],
+          "endpoint_b_xy": [
+            497,
+            457
+          ],
+          "mask_area_px": 1709,
+          "box_xyxy": [
+            497,
+            457,
+            602,
+            530
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.8947,
+          "length_px": 97.42,
+          "endpoint_a_xy": [
+            747,
+            538
+          ],
+          "endpoint_b_xy": [
+            804,
+            459
+          ],
+          "mask_area_px": 1173,
+          "box_xyxy": [
+            744,
+            458,
+            805,
+            542
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.8742,
+          "length_px": 101.61,
+          "endpoint_a_xy": [
+            554,
+            792
+          ],
+          "endpoint_b_xy": [
+            572,
+            692
+          ],
+          "mask_area_px": 1309,
+          "box_xyxy": [
+            552,
+            692,
+            573,
+            793
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8265,
+          "length_px": 104.81,
+          "endpoint_a_xy": [
+            692,
+            870
+          ],
+          "endpoint_b_xy": [
+            796,
+            857
+          ],
+          "mask_area_px": 1355,
+          "box_xyxy": [
+            691,
+            853,
+            797,
+            874
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8196,
+          "length_px": 89.68,
+          "endpoint_a_xy": [
+            614,
+            856
+          ],
+          "endpoint_b_xy": [
+            525,
+            845
+          ],
+          "mask_area_px": 1088,
+          "box_xyxy": [
+            521,
+            844,
+            615,
+            862
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.7584,
+          "length_px": 99.61,
+          "endpoint_a_xy": [
+            726,
+            619
+          ],
+          "endpoint_b_xy": [
+            715,
+            520
+          ],
+          "mask_area_px": 1282,
+          "box_xyxy": [
+            713,
+            520,
+            729,
+            620
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_7131_jpg.rf.232fed056ed6c79008e47af795d12a59.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.8727,
+          "length_px": 99.46,
+          "endpoint_a_xy": [
+            560,
+            534
+          ],
+          "endpoint_b_xy": [
+            586,
+            438
+          ],
+          "mask_area_px": 1434,
+          "box_xyxy": [
+            558,
+            437,
+            586,
+            540
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.8485,
+          "length_px": 103.08,
+          "endpoint_a_xy": [
+            509,
+            493
+          ],
+          "endpoint_b_xy": [
+            484,
+            393
+          ],
+          "mask_area_px": 1409,
+          "box_xyxy": [
+            483,
+            393,
+            512,
+            495
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_7445_jpg.rf.deaa886a0abd504ee79fb974181fd9bf.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9311,
+          "length_px": 304.11,
+          "endpoint_a_xy": [
+            596,
+            814
+          ],
+          "endpoint_b_xy": [
+            420,
+            566
+          ],
+          "mask_area_px": 11050,
+          "box_xyxy": [
+            420,
+            566,
+            605,
+            817
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9242,
+          "length_px": 326.89,
+          "endpoint_a_xy": [
+            710,
+            1136
+          ],
+          "endpoint_b_xy": [
+            917,
+            883
+          ],
+          "mask_area_px": 12613,
+          "box_xyxy": [
+            700,
+            882,
+            920,
+            1138
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9181,
+          "length_px": 343.69,
+          "endpoint_a_xy": [
+            814,
+            1173
+          ],
+          "endpoint_b_xy": [
+            992,
+            879
+          ],
+          "mask_area_px": 15030,
+          "box_xyxy": [
+            808,
+            876,
+            993,
+            1178
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.8981,
+          "length_px": 348.83,
+          "endpoint_a_xy": [
+            968,
+            437
+          ],
+          "endpoint_b_xy": [
+            812,
+            125
+          ],
+          "mask_area_px": 11053,
+          "box_xyxy": [
+            812,
+            125,
+            968,
+            437
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.8864,
+          "length_px": 340.12,
+          "endpoint_a_xy": [
+            651,
+            773
+          ],
+          "endpoint_b_xy": [
+            642,
+            433
+          ],
+          "mask_area_px": 12636,
+          "box_xyxy": [
+            620,
+            433,
+            670,
+            773
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8547,
+          "length_px": 316.57,
+          "endpoint_a_xy": [
+            337,
+            1186
+          ],
+          "endpoint_b_xy": [
+            636,
+            1082
+          ],
+          "mask_area_px": 11782,
+          "box_xyxy": [
+            337,
+            1078,
+            639,
+            1193
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8529,
+          "length_px": 312.39,
+          "endpoint_a_xy": [
+            324,
+            955
+          ],
+          "endpoint_b_xy": [
+            612,
+            834
+          ],
+          "mask_area_px": 11684,
+          "box_xyxy": [
+            323,
+            819,
+            616,
+            960
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8112,
+          "length_px": 289.97,
+          "endpoint_a_xy": [
+            329,
+            1183
+          ],
+          "endpoint_b_xy": [
+            608,
+            1104
+          ],
+          "mask_area_px": 11804,
+          "box_xyxy": [
+            328,
+            1103,
+            609,
+            1192
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.8065,
+          "length_px": 314.56,
+          "endpoint_a_xy": [
+            679,
+            233
+          ],
+          "endpoint_b_xy": [
+            981,
+            145
+          ],
+          "mask_area_px": 12470,
+          "box_xyxy": [
+            679,
+            129,
+            981,
+            234
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.675,
+          "length_px": 338.53,
+          "endpoint_a_xy": [
+            580,
+            1153
+          ],
+          "endpoint_b_xy": [
+            321,
+            935
+          ],
+          "mask_area_px": 15091,
+          "box_xyxy": [
+            320,
+            935,
+            589,
+            1153
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_7447_jpg.rf.5355620457a87bfc513e31a58b0fdf88.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9364,
+          "length_px": 334.77,
+          "endpoint_a_xy": [
+            705,
+            713
+          ],
+          "endpoint_b_xy": [
+            617,
+            390
+          ],
+          "mask_area_px": 13014,
+          "box_xyxy": [
+            617,
+            390,
+            718,
+            713
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9267,
+          "length_px": 317.24,
+          "endpoint_a_xy": [
+            1012,
+            912
+          ],
+          "endpoint_b_xy": [
+            776,
+            700
+          ],
+          "mask_area_px": 11936,
+          "box_xyxy": [
+            774,
+            699,
+            1015,
+            920
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.926,
+          "length_px": 338.28,
+          "endpoint_a_xy": [
+            514,
+            1012
+          ],
+          "endpoint_b_xy": [
+            317,
+            737
+          ],
+          "mask_area_px": 14177,
+          "box_xyxy": [
+            317,
+            736,
+            528,
+            1037
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9231,
+          "length_px": 344.64,
+          "endpoint_a_xy": [
+            716,
+            267
+          ],
+          "endpoint_b_xy": [
+            385,
+            171
+          ],
+          "mask_area_px": 13906,
+          "box_xyxy": [
+            385,
+            161,
+            718,
+            269
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9089,
+          "length_px": 336.04,
+          "endpoint_a_xy": [
+            349,
+            1174
+          ],
+          "endpoint_b_xy": [
+            579,
+            929
+          ],
+          "mask_area_px": 9409,
+          "box_xyxy": [
+            332,
+            929,
+            585,
+            1184
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.9012,
+          "length_px": 300.47,
+          "endpoint_a_xy": [
+            614,
+            1000
+          ],
+          "endpoint_b_xy": [
+            908,
+            938
+          ],
+          "mask_area_px": 12304,
+          "box_xyxy": [
+            614,
+            935,
+            911,
+            1005
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8701,
+          "length_px": 308.73,
+          "endpoint_a_xy": [
+            702,
+            238
+          ],
+          "endpoint_b_xy": [
+            1008,
+            197
+          ],
+          "mask_area_px": 12365,
+          "box_xyxy": [
+            702,
+            192,
+            1009,
+            256
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8643,
+          "length_px": 332.02,
+          "endpoint_a_xy": [
+            895,
+            1124
+          ],
+          "endpoint_b_xy": [
+            564,
+            1098
+          ],
+          "mask_area_px": 14495,
+          "box_xyxy": [
+            564,
+            1091,
+            897,
+            1150
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.8487,
+          "length_px": 296.92,
+          "endpoint_a_xy": [
+            554,
+            1220
+          ],
+          "endpoint_b_xy": [
+            325,
+            1031
+          ],
+          "mask_area_px": 9834,
+          "box_xyxy": [
+            324,
+            1031,
+            559,
+            1225
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.7687,
+          "length_px": 245.61,
+          "endpoint_a_xy": [
+            555,
+            1220
+          ],
+          "endpoint_b_xy": [
+            346,
+            1091
+          ],
+          "mask_area_px": 7235,
+          "box_xyxy": [
+            334,
+            1091,
+            560,
+            1224
+          ]
+        },
+        {
+          "instance": 11,
+          "class_id": 3,
+          "confidence": 0.6942,
+          "length_px": 326.2,
+          "endpoint_a_xy": [
+            331,
+            836
+          ],
+          "endpoint_b_xy": [
+            656,
+            808
+          ],
+          "mask_area_px": 11750,
+          "box_xyxy": [
+            324,
+            804,
+            656,
+            856
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_7468_jpg.rf.3add6b2182a75ac32b08aeb7652f9ff0.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.947,
+          "length_px": 341.12,
+          "endpoint_a_xy": [
+            944,
+            1169
+          ],
+          "endpoint_b_xy": [
+            693,
+            938
+          ],
+          "mask_area_px": 12889,
+          "box_xyxy": [
+            692,
+            937,
+            946,
+            1180
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9324,
+          "length_px": 338.14,
+          "endpoint_a_xy": [
+            731,
+            723
+          ],
+          "endpoint_b_xy": [
+            977,
+            491
+          ],
+          "mask_area_px": 13150,
+          "box_xyxy": [
+            731,
+            484,
+            984,
+            725
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9174,
+          "length_px": 297.47,
+          "endpoint_a_xy": [
+            866,
+            519
+          ],
+          "endpoint_b_xy": [
+            1005,
+            256
+          ],
+          "mask_area_px": 10416,
+          "box_xyxy": [
+            863,
+            256,
+            1009,
+            528
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9162,
+          "length_px": 352.36,
+          "endpoint_a_xy": [
+            692,
+            370
+          ],
+          "endpoint_b_xy": [
+            964,
+            146
+          ],
+          "mask_area_px": 14010,
+          "box_xyxy": [
+            691,
+            146,
+            969,
+            371
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9117,
+          "length_px": 291.12,
+          "endpoint_a_xy": [
+            309,
+            236
+          ],
+          "endpoint_b_xy": [
+            593,
+            172
+          ],
+          "mask_area_px": 11862,
+          "box_xyxy": [
+            309,
+            170,
+            594,
+            252
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.9114,
+          "length_px": 325.12,
+          "endpoint_a_xy": [
+            636,
+            999
+          ],
+          "endpoint_b_xy": [
+            326,
+            901
+          ],
+          "mask_area_px": 12802,
+          "box_xyxy": [
+            326,
+            890,
+            637,
+            1004
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.89,
+          "length_px": 304.59,
+          "endpoint_a_xy": [
+            606,
+            701
+          ],
+          "endpoint_b_xy": [
+            669,
+            403
+          ],
+          "mask_area_px": 12499,
+          "box_xyxy": [
+            598,
+            398,
+            678,
+            702
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8885,
+          "length_px": 330.31,
+          "endpoint_a_xy": [
+            937,
+            925
+          ],
+          "endpoint_b_xy": [
+            976,
+            597
+          ],
+          "mask_area_px": 13811,
+          "box_xyxy": [
+            918,
+            597,
+            986,
+            926
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.8811,
+          "length_px": 314.46,
+          "endpoint_a_xy": [
+            329,
+            1076
+          ],
+          "endpoint_b_xy": [
+            643,
+            1059
+          ],
+          "mask_area_px": 12945,
+          "box_xyxy": [
+            329,
+            1034,
+            645,
+            1088
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.8647,
+          "length_px": 322.13,
+          "endpoint_a_xy": [
+            899,
+            414
+          ],
+          "endpoint_b_xy": [
+            578,
+            387
+          ],
+          "mask_area_px": 12478,
+          "box_xyxy": [
+            577,
+            374,
+            899,
+            435
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_7476_jpg.rf.e79cf7bc6b55ab075324bf9d01a3a9f3.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9411,
+          "length_px": 288.06,
+          "endpoint_a_xy": [
+            975,
+            787
+          ],
+          "endpoint_b_xy": [
+            851,
+            527
+          ],
+          "mask_area_px": 9836,
+          "box_xyxy": [
+            851,
+            527,
+            986,
+            788
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9362,
+          "length_px": 321.79,
+          "endpoint_a_xy": [
+            459,
+            854
+          ],
+          "endpoint_b_xy": [
+            304,
+            572
+          ],
+          "mask_area_px": 12634,
+          "box_xyxy": [
+            299,
+            572,
+            461,
+            858
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9268,
+          "length_px": 306.86,
+          "endpoint_a_xy": [
+            989,
+            486
+          ],
+          "endpoint_b_xy": [
+            758,
+            284
+          ],
+          "mask_area_px": 11728,
+          "box_xyxy": [
+            743,
+            275,
+            991,
+            495
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9197,
+          "length_px": 341.06,
+          "endpoint_a_xy": [
+            633,
+            505
+          ],
+          "endpoint_b_xy": [
+            493,
+            194
+          ],
+          "mask_area_px": 11234,
+          "box_xyxy": [
+            487,
+            191,
+            634,
+            508
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9171,
+          "length_px": 325.41,
+          "endpoint_a_xy": [
+            895,
+            1150
+          ],
+          "endpoint_b_xy": [
+            942,
+            828
+          ],
+          "mask_area_px": 13003,
+          "box_xyxy": [
+            874,
+            828,
+            948,
+            1151
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.9127,
+          "length_px": 337.74,
+          "endpoint_a_xy": [
+            377,
+            504
+          ],
+          "endpoint_b_xy": [
+            315,
+            172
+          ],
+          "mask_area_px": 13246,
+          "box_xyxy": [
+            312,
+            171,
+            378,
+            504
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.9117,
+          "length_px": 357.53,
+          "endpoint_a_xy": [
+            654,
+            343
+          ],
+          "endpoint_b_xy": [
+            949,
+            141
+          ],
+          "mask_area_px": 13748,
+          "box_xyxy": [
+            653,
+            139,
+            953,
+            347
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.9041,
+          "length_px": 321.08,
+          "endpoint_a_xy": [
+            331,
+            1168
+          ],
+          "endpoint_b_xy": [
+            500,
+            895
+          ],
+          "mask_area_px": 10236,
+          "box_xyxy": [
+            321,
+            893,
+            505,
+            1171
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.888,
+          "length_px": 286.04,
+          "endpoint_a_xy": [
+            376,
+            348
+          ],
+          "endpoint_b_xy": [
+            595,
+            164
+          ],
+          "mask_area_px": 10102,
+          "box_xyxy": [
+            375,
+            161,
+            608,
+            349
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.8488,
+          "length_px": 316.24,
+          "endpoint_a_xy": [
+            737,
+            1029
+          ],
+          "endpoint_b_xy": [
+            422,
+            1001
+          ],
+          "mask_area_px": 13296,
+          "box_xyxy": [
+            421,
+            989,
+            737,
+            1048
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_7484_jpg.rf.d20aecabd5ab66bdb9b51db7ec770194.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.944,
+          "length_px": 345.25,
+          "endpoint_a_xy": [
+            643,
+            575
+          ],
+          "endpoint_b_xy": [
+            407,
+            323
+          ],
+          "mask_area_px": 12987,
+          "box_xyxy": [
+            406,
+            322,
+            649,
+            577
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9314,
+          "length_px": 337.26,
+          "endpoint_a_xy": [
+            486,
+            744
+          ],
+          "endpoint_b_xy": [
+            298,
+            464
+          ],
+          "mask_area_px": 12878,
+          "box_xyxy": [
+            294,
+            463,
+            486,
+            745
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9299,
+          "length_px": 329.57,
+          "endpoint_a_xy": [
+            391,
+            1183
+          ],
+          "endpoint_b_xy": [
+            645,
+            973
+          ],
+          "mask_area_px": 12092,
+          "box_xyxy": [
+            391,
+            972,
+            645,
+            1189
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9238,
+          "length_px": 319.85,
+          "endpoint_a_xy": [
+            1006,
+            415
+          ],
+          "endpoint_b_xy": [
+            841,
+            141
+          ],
+          "mask_area_px": 12750,
+          "box_xyxy": [
+            834,
+            141,
+            1007,
+            416
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9229,
+          "length_px": 301.48,
+          "endpoint_a_xy": [
+            949,
+            665
+          ],
+          "endpoint_b_xy": [
+            874,
+            373
+          ],
+          "mask_area_px": 11109,
+          "box_xyxy": [
+            874,
+            372,
+            961,
+            666
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.9228,
+          "length_px": 334.03,
+          "endpoint_a_xy": [
+            766,
+            576
+          ],
+          "endpoint_b_xy": [
+            602,
+            285
+          ],
+          "mask_area_px": 12506,
+          "box_xyxy": [
+            601,
+            284,
+            777,
+            577
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.9217,
+          "length_px": 342.99,
+          "endpoint_a_xy": [
+            324,
+            1113
+          ],
+          "endpoint_b_xy": [
+            462,
+            799
+          ],
+          "mask_area_px": 13047,
+          "box_xyxy": [
+            314,
+            798,
+            464,
+            1114
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.9069,
+          "length_px": 304.77,
+          "endpoint_a_xy": [
+            977,
+            1132
+          ],
+          "endpoint_b_xy": [
+            918,
+            833
+          ],
+          "mask_area_px": 10628,
+          "box_xyxy": [
+            918,
+            832,
+            994,
+            1132
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.887,
+          "length_px": 341.47,
+          "endpoint_a_xy": [
+            694,
+            929
+          ],
+          "endpoint_b_xy": [
+            676,
+            588
+          ],
+          "mask_area_px": 13572,
+          "box_xyxy": [
+            663,
+            585,
+            713,
+            929
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.8577,
+          "length_px": 356.35,
+          "endpoint_a_xy": [
+            752,
+            520
+          ],
+          "endpoint_b_xy": [
+            783,
+            165
+          ],
+          "mask_area_px": 14906,
+          "box_xyxy": [
+            750,
+            164,
+            809,
+            520
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_7498_jpg.rf.6ebf3c1b83042df53fe62d99efc8bb47.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9314,
+          "length_px": 296.2,
+          "endpoint_a_xy": [
+            878,
+            1171
+          ],
+          "endpoint_b_xy": [
+            754,
+            902
+          ],
+          "mask_area_px": 9938,
+          "box_xyxy": [
+            754,
+            901,
+            891,
+            1171
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9292,
+          "length_px": 325.96,
+          "endpoint_a_xy": [
+            471,
+            516
+          ],
+          "endpoint_b_xy": [
+            716,
+            301
+          ],
+          "mask_area_px": 12740,
+          "box_xyxy": [
+            471,
+            300,
+            718,
+            527
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9285,
+          "length_px": 319.86,
+          "endpoint_a_xy": [
+            366,
+            733
+          ],
+          "endpoint_b_xy": [
+            614,
+            531
+          ],
+          "mask_area_px": 11882,
+          "box_xyxy": [
+            365,
+            530,
+            617,
+            738
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9241,
+          "length_px": 304.73,
+          "endpoint_a_xy": [
+            974,
+            789
+          ],
+          "endpoint_b_xy": [
+            691,
+            676
+          ],
+          "mask_area_px": 10845,
+          "box_xyxy": [
+            690,
+            675,
+            974,
+            796
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9163,
+          "length_px": 348.4,
+          "endpoint_a_xy": [
+            637,
+            355
+          ],
+          "endpoint_b_xy": [
+            359,
+            145
+          ],
+          "mask_area_px": 13399,
+          "box_xyxy": [
+            355,
+            144,
+            638,
+            355
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.902,
+          "length_px": 325.28,
+          "endpoint_a_xy": [
+            975,
+            1164
+          ],
+          "endpoint_b_xy": [
+            883,
+            852
+          ],
+          "mask_area_px": 13205,
+          "box_xyxy": [
+            883,
+            851,
+            991,
+            1164
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8967,
+          "length_px": 341.35,
+          "endpoint_a_xy": [
+            388,
+            574
+          ],
+          "endpoint_b_xy": [
+            297,
+            245
+          ],
+          "mask_area_px": 13414,
+          "box_xyxy": [
+            295,
+            245,
+            392,
+            574
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8957,
+          "length_px": 319.41,
+          "endpoint_a_xy": [
+            650,
+            1092
+          ],
+          "endpoint_b_xy": [
+            348,
+            988
+          ],
+          "mask_area_px": 12430,
+          "box_xyxy": [
+            339,
+            981,
+            654,
+            1094
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.8928,
+          "length_px": 318.35,
+          "endpoint_a_xy": [
+            307,
+            1064
+          ],
+          "endpoint_b_xy": [
+            419,
+            766
+          ],
+          "mask_area_px": 13535,
+          "box_xyxy": [
+            290,
+            759,
+            422,
+            1064
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.8825,
+          "length_px": 332.96,
+          "endpoint_a_xy": [
+            346,
+            1181
+          ],
+          "endpoint_b_xy": [
+            666,
+            1089
+          ],
+          "mask_area_px": 13728,
+          "box_xyxy": [
+            345,
+            1088,
+            667,
+            1189
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_7508_MOV-0002_jpg.rf.cf70d00a7fdd12345de975389896a41b.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9316,
+          "length_px": 264.59,
+          "endpoint_a_xy": [
+            807,
+            660
+          ],
+          "endpoint_b_xy": [
+            587,
+            513
+          ],
+          "mask_area_px": 7499,
+          "box_xyxy": [
+            586,
+            511,
+            812,
+            662
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9312,
+          "length_px": 320.22,
+          "endpoint_a_xy": [
+            558,
+            872
+          ],
+          "endpoint_b_xy": [
+            446,
+            572
+          ],
+          "mask_area_px": 11613,
+          "box_xyxy": [
+            445,
+            563,
+            573,
+            873
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9258,
+          "length_px": 283.03,
+          "endpoint_a_xy": [
+            729,
+            547
+          ],
+          "endpoint_b_xy": [
+            953,
+            374
+          ],
+          "mask_area_px": 10187,
+          "box_xyxy": [
+            724,
+            367,
+            955,
+            557
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9184,
+          "length_px": 293.5,
+          "endpoint_a_xy": [
+            349,
+            1153
+          ],
+          "endpoint_b_xy": [
+            629,
+            1065
+          ],
+          "mask_area_px": 9956,
+          "box_xyxy": [
+            349,
+            1063,
+            634,
+            1159
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9156,
+          "length_px": 336.44,
+          "endpoint_a_xy": [
+            342,
+            1159
+          ],
+          "endpoint_b_xy": [
+            429,
+            834
+          ],
+          "mask_area_px": 13368,
+          "box_xyxy": [
+            322,
+            833,
+            429,
+            1159
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.9121,
+          "length_px": 266.31,
+          "endpoint_a_xy": [
+            315,
+            886
+          ],
+          "endpoint_b_xy": [
+            350,
+            622
+          ],
+          "mask_area_px": 8793,
+          "box_xyxy": [
+            304,
+            622,
+            359,
+            887
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.9116,
+          "length_px": 307.87,
+          "endpoint_a_xy": [
+            671,
+            443
+          ],
+          "endpoint_b_xy": [
+            826,
+            177
+          ],
+          "mask_area_px": 11516,
+          "box_xyxy": [
+            670,
+            177,
+            833,
+            451
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8998,
+          "length_px": 264.38,
+          "endpoint_a_xy": [
+            691,
+            1107
+          ],
+          "endpoint_b_xy": [
+            954,
+            1080
+          ],
+          "mask_area_px": 9283,
+          "box_xyxy": [
+            685,
+            1065,
+            955,
+            1122
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.8941,
+          "length_px": 318.31,
+          "endpoint_a_xy": [
+            453,
+            724
+          ],
+          "endpoint_b_xy": [
+            324,
+            433
+          ],
+          "mask_area_px": 10870,
+          "box_xyxy": [
+            323,
+            433,
+            455,
+            727
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.8756,
+          "length_px": 274.33,
+          "endpoint_a_xy": [
+            293,
+            585
+          ],
+          "endpoint_b_xy": [
+            356,
+            318
+          ],
+          "mask_area_px": 9921,
+          "box_xyxy": [
+            282,
+            316,
+            359,
+            586
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_7518_jpg.rf.48768c2057ebfd4c9bfdc54e1f17639d.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9382,
+          "length_px": 319.45,
+          "endpoint_a_xy": [
+            971,
+            875
+          ],
+          "endpoint_b_xy": [
+            712,
+            688
+          ],
+          "mask_area_px": 11719,
+          "box_xyxy": [
+            712,
+            687,
+            973,
+            884
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.929,
+          "length_px": 311.58,
+          "endpoint_a_xy": [
+            981,
+            623
+          ],
+          "endpoint_b_xy": [
+            688,
+            517
+          ],
+          "mask_area_px": 11287,
+          "box_xyxy": [
+            687,
+            516,
+            982,
+            631
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9205,
+          "length_px": 274.09,
+          "endpoint_a_xy": [
+            968,
+            1090
+          ],
+          "endpoint_b_xy": [
+            703,
+            1020
+          ],
+          "mask_area_px": 9326,
+          "box_xyxy": [
+            701,
+            1019,
+            968,
+            1102
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9204,
+          "length_px": 339.44,
+          "endpoint_a_xy": [
+            443,
+            471
+          ],
+          "endpoint_b_xy": [
+            292,
+            167
+          ],
+          "mask_area_px": 13578,
+          "box_xyxy": [
+            289,
+            166,
+            443,
+            475
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9134,
+          "length_px": 312.67,
+          "endpoint_a_xy": [
+            380,
+            917
+          ],
+          "endpoint_b_xy": [
+            299,
+            615
+          ],
+          "mask_area_px": 12416,
+          "box_xyxy": [
+            289,
+            614,
+            382,
+            919
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.9098,
+          "length_px": 307.16,
+          "endpoint_a_xy": [
+            467,
+            792
+          ],
+          "endpoint_b_xy": [
+            310,
+            528
+          ],
+          "mask_area_px": 10988,
+          "box_xyxy": [
+            303,
+            527,
+            467,
+            799
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8997,
+          "length_px": 314.27,
+          "endpoint_a_xy": [
+            484,
+            695
+          ],
+          "endpoint_b_xy": [
+            306,
+            436
+          ],
+          "mask_area_px": 11074,
+          "box_xyxy": [
+            301,
+            435,
+            484,
+            696
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8987,
+          "length_px": 335.09,
+          "endpoint_a_xy": [
+            990,
+            355
+          ],
+          "endpoint_b_xy": [
+            676,
+            238
+          ],
+          "mask_area_px": 12998,
+          "box_xyxy": [
+            676,
+            238,
+            991,
+            364
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.889,
+          "length_px": 247.25,
+          "endpoint_a_xy": [
+            737,
+            460
+          ],
+          "endpoint_b_xy": [
+            975,
+            393
+          ],
+          "mask_area_px": 8801,
+          "box_xyxy": [
+            737,
+            375,
+            975,
+            464
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.849,
+          "length_px": 279.41,
+          "endpoint_a_xy": [
+            600,
+            204
+          ],
+          "endpoint_b_xy": [
+            322,
+            176
+          ],
+          "mask_area_px": 9811,
+          "box_xyxy": [
+            322,
+            162,
+            601,
+            215
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_7522_jpg.rf.d1b25eaa49e2395cdb83cb99e46cddf4.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9284,
+          "length_px": 255.69,
+          "endpoint_a_xy": [
+            920,
+            521
+          ],
+          "endpoint_b_xy": [
+            757,
+            324
+          ],
+          "mask_area_px": 8053,
+          "box_xyxy": [
+            757,
+            323,
+            927,
+            527
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9267,
+          "length_px": 310.34,
+          "endpoint_a_xy": [
+            976,
+            628
+          ],
+          "endpoint_b_xy": [
+            706,
+            475
+          ],
+          "mask_area_px": 11413,
+          "box_xyxy": [
+            705,
+            475,
+            976,
+            639
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9266,
+          "length_px": 336.32,
+          "endpoint_a_xy": [
+            848,
+            962
+          ],
+          "endpoint_b_xy": [
+            700,
+            660
+          ],
+          "mask_area_px": 12965,
+          "box_xyxy": [
+            700,
+            659,
+            858,
+            963
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9131,
+          "length_px": 331.22,
+          "endpoint_a_xy": [
+            441,
+            1033
+          ],
+          "endpoint_b_xy": [
+            630,
+            761
+          ],
+          "mask_area_px": 11833,
+          "box_xyxy": [
+            433,
+            761,
+            634,
+            1034
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9074,
+          "length_px": 268.81,
+          "endpoint_a_xy": [
+            554,
+            1051
+          ],
+          "endpoint_b_xy": [
+            808,
+            963
+          ],
+          "mask_area_px": 10520,
+          "box_xyxy": [
+            554,
+            957,
+            809,
+            1054
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.902,
+          "length_px": 320.86,
+          "endpoint_a_xy": [
+            515,
+            503
+          ],
+          "endpoint_b_xy": [
+            309,
+            257
+          ],
+          "mask_area_px": 11037,
+          "box_xyxy": [
+            303,
+            257,
+            525,
+            504
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8798,
+          "length_px": 281.3,
+          "endpoint_a_xy": [
+            395,
+            867
+          ],
+          "endpoint_b_xy": [
+            408,
+            586
+          ],
+          "mask_area_px": 11263,
+          "box_xyxy": [
+            382,
+            585,
+            434,
+            870
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8388,
+          "length_px": 314.53,
+          "endpoint_a_xy": [
+            500,
+            491
+          ],
+          "endpoint_b_xy": [
+            469,
+            178
+          ],
+          "mask_area_px": 13126,
+          "box_xyxy": [
+            442,
+            177,
+            501,
+            508
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.7465,
+          "length_px": 287.47,
+          "endpoint_a_xy": [
+            613,
+            580
+          ],
+          "endpoint_b_xy": [
+            327,
+            551
+          ],
+          "mask_area_px": 9832,
+          "box_xyxy": [
+            326,
+            533,
+            617,
+            589
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.6746,
+          "length_px": 198.92,
+          "endpoint_a_xy": [
+            492,
+            719
+          ],
+          "endpoint_b_xy": [
+            427,
+            531
+          ],
+          "mask_area_px": 8917,
+          "box_xyxy": [
+            331,
+            530,
+            502,
+            721
+          ]
+        },
+        {
+          "instance": 11,
+          "class_id": 3,
+          "confidence": 0.589,
+          "length_px": 275.51,
+          "endpoint_a_xy": [
+            499,
+            688
+          ],
+          "endpoint_b_xy": [
+            379,
+            440
+          ],
+          "mask_area_px": 8883,
+          "box_xyxy": [
+            341,
+            433,
+            606,
+            688
+          ]
+        },
+        {
+          "instance": 12,
+          "class_id": 3,
+          "confidence": 0.5384,
+          "length_px": 262.97,
+          "endpoint_a_xy": [
+            496,
+            675
+          ],
+          "endpoint_b_xy": [
+            380,
+            439
+          ],
+          "mask_area_px": 7948,
+          "box_xyxy": [
+            356,
+            435,
+            539,
+            676
+          ]
+        },
+        {
+          "instance": 13,
+          "class_id": 3,
+          "confidence": 0.5198,
+          "length_px": 214.31,
+          "endpoint_a_xy": [
+            493,
+            719
+          ],
+          "endpoint_b_xy": [
+            416,
+            519
+          ],
+          "mask_area_px": 9200,
+          "box_xyxy": [
+            389,
+            518,
+            501,
+            720
+          ]
+        },
+        {
+          "instance": 14,
+          "class_id": 3,
+          "confidence": 0.3797,
+          "length_px": 286.37,
+          "endpoint_a_xy": [
+            611,
+            582
+          ],
+          "endpoint_b_xy": [
+            326,
+            554
+          ],
+          "mask_area_px": 9230,
+          "box_xyxy": [
+            326,
+            457,
+            615,
+            589
+          ]
+        },
+        {
+          "instance": 15,
+          "class_id": 3,
+          "confidence": 0.2653,
+          "length_px": 280.14,
+          "endpoint_a_xy": [
+            498,
+            714
+          ],
+          "endpoint_b_xy": [
+            382,
+            459
+          ],
+          "mask_area_px": 9527,
+          "box_xyxy": [
+            336,
+            458,
+            505,
+            715
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_7524_jpg.rf.6a2242abb1ceb9f2eb045b00e6b1306b.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9384,
+          "length_px": 287.43,
+          "endpoint_a_xy": [
+            656,
+            972
+          ],
+          "endpoint_b_xy": [
+            443,
+            1165
+          ],
+          "mask_area_px": 9169,
+          "box_xyxy": [
+            442,
+            972,
+            657,
+            1172
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9327,
+          "length_px": 256.97,
+          "endpoint_a_xy": [
+            921,
+            520
+          ],
+          "endpoint_b_xy": [
+            756,
+            323
+          ],
+          "mask_area_px": 8045,
+          "box_xyxy": [
+            756,
+            323,
+            927,
+            526
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9274,
+          "length_px": 345.83,
+          "endpoint_a_xy": [
+            995,
+            1167
+          ],
+          "endpoint_b_xy": [
+            774,
+            901
+          ],
+          "mask_area_px": 13343,
+          "box_xyxy": [
+            773,
+            901,
+            1003,
+            1171
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9259,
+          "length_px": 312.95,
+          "endpoint_a_xy": [
+            975,
+            630
+          ],
+          "endpoint_b_xy": [
+            702,
+            477
+          ],
+          "mask_area_px": 11315,
+          "box_xyxy": [
+            702,
+            476,
+            976,
+            640
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.924,
+          "length_px": 335.42,
+          "endpoint_a_xy": [
+            335,
+            1165
+          ],
+          "endpoint_b_xy": [
+            483,
+            864
+          ],
+          "mask_area_px": 12287,
+          "box_xyxy": [
+            327,
+            863,
+            483,
+            1165
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.9037,
+          "length_px": 298.44,
+          "endpoint_a_xy": [
+            863,
+            1167
+          ],
+          "endpoint_b_xy": [
+            738,
+            896
+          ],
+          "mask_area_px": 10182,
+          "box_xyxy": [
+            736,
+            894,
+            876,
+            1167
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8963,
+          "length_px": 322.46,
+          "endpoint_a_xy": [
+            444,
+            477
+          ],
+          "endpoint_b_xy": [
+            297,
+            190
+          ],
+          "mask_area_px": 11197,
+          "box_xyxy": [
+            296,
+            189,
+            445,
+            478
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8955,
+          "length_px": 348.66,
+          "endpoint_a_xy": [
+            541,
+            508
+          ],
+          "endpoint_b_xy": [
+            507,
+            161
+          ],
+          "mask_area_px": 15126,
+          "box_xyxy": [
+            507,
+            161,
+            568,
+            508
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.838,
+          "length_px": 317.18,
+          "endpoint_a_xy": [
+            379,
+            580
+          ],
+          "endpoint_b_xy": [
+            279,
+            279
+          ],
+          "mask_area_px": 10726,
+          "box_xyxy": [
+            279,
+            278,
+            383,
+            587
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_7528_jpg.rf.94e3aa27ed0ede48a839458fac5fc0f6.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9433,
+          "length_px": 304.93,
+          "endpoint_a_xy": [
+            319,
+            1112
+          ],
+          "endpoint_b_xy": [
+            581,
+            956
+          ],
+          "mask_area_px": 10779,
+          "box_xyxy": [
+            318,
+            956,
+            582,
+            1118
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9332,
+          "length_px": 318.98,
+          "endpoint_a_xy": [
+            611,
+            275
+          ],
+          "endpoint_b_xy": [
+            322,
+            140
+          ],
+          "mask_area_px": 11682,
+          "box_xyxy": [
+            321,
+            137,
+            612,
+            277
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9177,
+          "length_px": 271.54,
+          "endpoint_a_xy": [
+            952,
+            1113
+          ],
+          "endpoint_b_xy": [
+            702,
+            1007
+          ],
+          "mask_area_px": 9340,
+          "box_xyxy": [
+            701,
+            1006,
+            952,
+            1122
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.8981,
+          "length_px": 299.1,
+          "endpoint_a_xy": [
+            669,
+            915
+          ],
+          "endpoint_b_xy": [
+            963,
+            860
+          ],
+          "mask_area_px": 13197,
+          "box_xyxy": [
+            664,
+            842,
+            965,
+            930
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.8917,
+          "length_px": 329.09,
+          "endpoint_a_xy": [
+            811,
+            752
+          ],
+          "endpoint_b_xy": [
+            874,
+            429
+          ],
+          "mask_area_px": 11901,
+          "box_xyxy": [
+            806,
+            429,
+            883,
+            753
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8709,
+          "length_px": 297.33,
+          "endpoint_a_xy": [
+            979,
+            529
+          ],
+          "endpoint_b_xy": [
+            965,
+            232
+          ],
+          "mask_area_px": 10687,
+          "box_xyxy": [
+            951,
+            232,
+            998,
+            532
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8636,
+          "length_px": 254.83,
+          "endpoint_a_xy": [
+            586,
+            452
+          ],
+          "endpoint_b_xy": [
+            335,
+            408
+          ],
+          "mask_area_px": 8636,
+          "box_xyxy": [
+            335,
+            405,
+            593,
+            460
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.647,
+          "length_px": 304.93,
+          "endpoint_a_xy": [
+            708,
+            356
+          ],
+          "endpoint_b_xy": [
+            970,
+            200
+          ],
+          "mask_area_px": 8131,
+          "box_xyxy": [
+            668,
+            188,
+            970,
+            403
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.6065,
+          "length_px": 325.78,
+          "endpoint_a_xy": [
+            812,
+            460
+          ],
+          "endpoint_b_xy": [
+            703,
+            153
+          ],
+          "mask_area_px": 11006,
+          "box_xyxy": [
+            696,
+            153,
+            813,
+            472
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.361,
+          "length_px": 311.32,
+          "endpoint_a_xy": [
+            703,
+            364
+          ],
+          "endpoint_b_xy": [
+            967,
+            199
+          ],
+          "mask_area_px": 7996,
+          "box_xyxy": [
+            703,
+            188,
+            968,
+            466
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_7537_jpg.rf.60259f30a02496b601e20cc467b01c53.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.93,
+          "length_px": 335.2,
+          "endpoint_a_xy": [
+            577,
+            988
+          ],
+          "endpoint_b_xy": [
+            319,
+            774
+          ],
+          "mask_area_px": 13630,
+          "box_xyxy": [
+            319,
+            767,
+            580,
+            993
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9263,
+          "length_px": 327.3,
+          "endpoint_a_xy": [
+            494,
+            797
+          ],
+          "endpoint_b_xy": [
+            309,
+            527
+          ],
+          "mask_area_px": 12572,
+          "box_xyxy": [
+            299,
+            527,
+            496,
+            799
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9198,
+          "length_px": 343.93,
+          "endpoint_a_xy": [
+            841,
+            1101
+          ],
+          "endpoint_b_xy": [
+            972,
+            783
+          ],
+          "mask_area_px": 13723,
+          "box_xyxy": [
+            828,
+            782,
+            972,
+            1102
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9171,
+          "length_px": 343.05,
+          "endpoint_a_xy": [
+            604,
+            465
+          ],
+          "endpoint_b_xy": [
+            295,
+            316
+          ],
+          "mask_area_px": 14961,
+          "box_xyxy": [
+            295,
+            316,
+            605,
+            472
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9162,
+          "length_px": 305.98,
+          "endpoint_a_xy": [
+            724,
+            1035
+          ],
+          "endpoint_b_xy": [
+            659,
+            736
+          ],
+          "mask_area_px": 11566,
+          "box_xyxy": [
+            657,
+            735,
+            731,
+            1036
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.9033,
+          "length_px": 350.22,
+          "endpoint_a_xy": [
+            637,
+            192
+          ],
+          "endpoint_b_xy": [
+            297,
+            108
+          ],
+          "mask_area_px": 15467,
+          "box_xyxy": [
+            297,
+            105,
+            639,
+            193
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.9023,
+          "length_px": 338.66,
+          "endpoint_a_xy": [
+            802,
+            578
+          ],
+          "endpoint_b_xy": [
+            746,
+            244
+          ],
+          "mask_area_px": 14106,
+          "box_xyxy": [
+            746,
+            244,
+            814,
+            578
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.897,
+          "length_px": 325.18,
+          "endpoint_a_xy": [
+            935,
+            460
+          ],
+          "endpoint_b_xy": [
+            883,
+            139
+          ],
+          "mask_area_px": 11942,
+          "box_xyxy": [
+            879,
+            139,
+            938,
+            460
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.8938,
+          "length_px": 310.55,
+          "endpoint_a_xy": [
+            839,
+            872
+          ],
+          "endpoint_b_xy": [
+            808,
+            563
+          ],
+          "mask_area_px": 10752,
+          "box_xyxy": [
+            807,
+            563,
+            856,
+            873
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.8804,
+          "length_px": 297.54,
+          "endpoint_a_xy": [
+            306,
+            1102
+          ],
+          "endpoint_b_xy": [
+            324,
+            805
+          ],
+          "mask_area_px": 10629,
+          "box_xyxy": [
+            294,
+            793,
+            342,
+            1102
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/IMG_7555_jpg.rf.7750f18794e905eeb817732d2982c728.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9428,
+          "length_px": 351.13,
+          "endpoint_a_xy": [
+            494,
+            1115
+          ],
+          "endpoint_b_xy": [
+            786,
+            920
+          ],
+          "mask_area_px": 14122,
+          "box_xyxy": [
+            494,
+            920,
+            786,
+            1123
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9328,
+          "length_px": 310.76,
+          "endpoint_a_xy": [
+            907,
+            622
+          ],
+          "endpoint_b_xy": [
+            706,
+            385
+          ],
+          "mask_area_px": 10972,
+          "box_xyxy": [
+            700,
+            383,
+            909,
+            626
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9218,
+          "length_px": 332.49,
+          "endpoint_a_xy": [
+            958,
+            493
+          ],
+          "endpoint_b_xy": [
+            716,
+            265
+          ],
+          "mask_area_px": 12635,
+          "box_xyxy": [
+            711,
+            264,
+            960,
+            499
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.9172,
+          "length_px": 316.29,
+          "endpoint_a_xy": [
+            602,
+            615
+          ],
+          "endpoint_b_xy": [
+            496,
+            317
+          ],
+          "mask_area_px": 11297,
+          "box_xyxy": [
+            491,
+            317,
+            603,
+            616
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.9172,
+          "length_px": 311.45,
+          "endpoint_a_xy": [
+            403,
+            1108
+          ],
+          "endpoint_b_xy": [
+            613,
+            878
+          ],
+          "mask_area_px": 10884,
+          "box_xyxy": [
+            398,
+            878,
+            617,
+            1112
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.9112,
+          "length_px": 337.23,
+          "endpoint_a_xy": [
+            942,
+            326
+          ],
+          "endpoint_b_xy": [
+            675,
+            120
+          ],
+          "mask_area_px": 12923,
+          "box_xyxy": [
+            672,
+            118,
+            942,
+            327
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.9093,
+          "length_px": 354.12,
+          "endpoint_a_xy": [
+            956,
+            1114
+          ],
+          "endpoint_b_xy": [
+            825,
+            785
+          ],
+          "mask_area_px": 13804,
+          "box_xyxy": [
+            823,
+            784,
+            969,
+            1115
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8955,
+          "length_px": 371.26,
+          "endpoint_a_xy": [
+            298,
+            1097
+          ],
+          "endpoint_b_xy": [
+            430,
+            750
+          ],
+          "mask_area_px": 15188,
+          "box_xyxy": [
+            283,
+            749,
+            432,
+            1099
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.8896,
+          "length_px": 336.76,
+          "endpoint_a_xy": [
+            315,
+            487
+          ],
+          "endpoint_b_xy": [
+            358,
+            153
+          ],
+          "mask_area_px": 12654,
+          "box_xyxy": [
+            314,
+            152,
+            371,
+            488
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.8811,
+          "length_px": 348.13,
+          "endpoint_a_xy": [
+            672,
+            817
+          ],
+          "endpoint_b_xy": [
+            700,
+            470
+          ],
+          "mask_area_px": 13868,
+          "box_xyxy": [
+            658,
+            463,
+            718,
+            818
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/LD2f0g1CYMyPe7nBpNnVAM9CJjXTClLRnLnouLs4_jpeg.rf.ff683ab7f6dd456fe6bc5148f3c25889.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9133,
+          "length_px": 233.32,
+          "endpoint_a_xy": [
+            568,
+            300
+          ],
+          "endpoint_b_xy": [
+            759,
+            166
+          ],
+          "mask_area_px": 7420,
+          "box_xyxy": [
+            568,
+            165,
+            768,
+            300
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.9118,
+          "length_px": 192.52,
+          "endpoint_a_xy": [
+            482,
+            1073
+          ],
+          "endpoint_b_xy": [
+            592,
+            915
+          ],
+          "mask_area_px": 4629,
+          "box_xyxy": [
+            480,
+            914,
+            592,
+            1074
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.9053,
+          "length_px": 213.22,
+          "endpoint_a_xy": [
+            603,
+            686
+          ],
+          "endpoint_b_xy": [
+            772,
+            556
+          ],
+          "mask_area_px": 5757,
+          "box_xyxy": [
+            603,
+            556,
+            775,
+            687
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.8998,
+          "length_px": 204.46,
+          "endpoint_a_xy": [
+            734,
+            766
+          ],
+          "endpoint_b_xy": [
+            536,
+            715
+          ],
+          "mask_area_px": 5509,
+          "box_xyxy": [
+            536,
+            714,
+            734,
+            772
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.8983,
+          "length_px": 196.89,
+          "endpoint_a_xy": [
+            814,
+            1128
+          ],
+          "endpoint_b_xy": [
+            896,
+            949
+          ],
+          "mask_area_px": 5218,
+          "box_xyxy": [
+            813,
+            948,
+            896,
+            1129
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8917,
+          "length_px": 209.31,
+          "endpoint_a_xy": [
+            999,
+            609
+          ],
+          "endpoint_b_xy": [
+            948,
+            406
+          ],
+          "mask_area_px": 6082,
+          "box_xyxy": [
+            947,
+            405,
+            1005,
+            610
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8897,
+          "length_px": 269.55,
+          "endpoint_a_xy": [
+            976,
+            1146
+          ],
+          "endpoint_b_xy": [
+            939,
+            879
+          ],
+          "mask_area_px": 9070,
+          "box_xyxy": [
+            931,
+            877,
+            987,
+            1146
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8822,
+          "length_px": 228.95,
+          "endpoint_a_xy": [
+            755,
+            229
+          ],
+          "endpoint_b_xy": [
+            972,
+            156
+          ],
+          "mask_area_px": 6731,
+          "box_xyxy": [
+            754,
+            155,
+            973,
+            229
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.869,
+          "length_px": 190.39,
+          "endpoint_a_xy": [
+            455,
+            444
+          ],
+          "endpoint_b_xy": [
+            280,
+            369
+          ],
+          "mask_area_px": 4737,
+          "box_xyxy": [
+            280,
+            368,
+            456,
+            446
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.86,
+          "length_px": 187.77,
+          "endpoint_a_xy": [
+            340,
+            579
+          ],
+          "endpoint_b_xy": [
+            267,
+            406
+          ],
+          "mask_area_px": 4689,
+          "box_xyxy": [
+            266,
+            405,
+            340,
+            579
+          ]
+        },
+        {
+          "instance": 11,
+          "class_id": 3,
+          "confidence": 0.8289,
+          "length_px": 224.93,
+          "endpoint_a_xy": [
+            597,
+            465
+          ],
+          "endpoint_b_xy": [
+            472,
+            278
+          ],
+          "mask_area_px": 5563,
+          "box_xyxy": [
+            472,
+            278,
+            598,
+            465
+          ]
+        },
+        {
+          "instance": 12,
+          "class_id": 3,
+          "confidence": 0.8144,
+          "length_px": 203.48,
+          "endpoint_a_xy": [
+            532,
+            840
+          ],
+          "endpoint_b_xy": [
+            399,
+            686
+          ],
+          "mask_area_px": 5122,
+          "box_xyxy": [
+            396,
+            686,
+            534,
+            840
+          ]
+        },
+        {
+          "instance": 13,
+          "class_id": 3,
+          "confidence": 0.8074,
+          "length_px": 206.34,
+          "endpoint_a_xy": [
+            332,
+            820
+          ],
+          "endpoint_b_xy": [
+            301,
+            616
+          ],
+          "mask_area_px": 5853,
+          "box_xyxy": [
+            301,
+            616,
+            337,
+            821
+          ]
+        },
+        {
+          "instance": 14,
+          "class_id": 3,
+          "confidence": 0.7425,
+          "length_px": 196.65,
+          "endpoint_a_xy": [
+            333,
+            164
+          ],
+          "endpoint_b_xy": [
+            529,
+            148
+          ],
+          "mask_area_px": 5111,
+          "box_xyxy": [
+            328,
+            143,
+            534,
+            178
+          ]
+        },
+        {
+          "instance": 15,
+          "class_id": 3,
+          "confidence": 0.3318,
+          "length_px": 187.39,
+          "endpoint_a_xy": [
+            295,
+            369
+          ],
+          "endpoint_b_xy": [
+            380,
+            202
+          ],
+          "mask_area_px": 5043,
+          "box_xyxy": [
+            294,
+            201,
+            380,
+            370
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/N8FNsju8gkbfddFtqIrPZhpARazPxEAvz1xHE6XW_jpeg.rf.a38da07676c9661e54861cc8c74d7355.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.8964,
+          "length_px": 118.87,
+          "endpoint_a_xy": [
+            812,
+            887
+          ],
+          "endpoint_b_xy": [
+            725,
+            806
+          ],
+          "mask_area_px": 1982,
+          "box_xyxy": [
+            725,
+            805,
+            813,
+            891
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.8827,
+          "length_px": 122.12,
+          "endpoint_a_xy": [
+            675,
+            487
+          ],
+          "endpoint_b_xy": [
+            710,
+            370
+          ],
+          "mask_area_px": 2268,
+          "box_xyxy": [
+            674,
+            370,
+            712,
+            490
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.8751,
+          "length_px": 121.74,
+          "endpoint_a_xy": [
+            333,
+            810
+          ],
+          "endpoint_b_xy": [
+            383,
+            699
+          ],
+          "mask_area_px": 2178,
+          "box_xyxy": [
+            333,
+            699,
+            386,
+            810
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.8746,
+          "length_px": 101.53,
+          "endpoint_a_xy": [
+            885,
+            781
+          ],
+          "endpoint_b_xy": [
+            807,
+            716
+          ],
+          "mask_area_px": 1666,
+          "box_xyxy": [
+            806,
+            716,
+            885,
+            784
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.8731,
+          "length_px": 105.82,
+          "endpoint_a_xy": [
+            443,
+            487
+          ],
+          "endpoint_b_xy": [
+            352,
+            433
+          ],
+          "mask_area_px": 1701,
+          "box_xyxy": [
+            352,
+            433,
+            446,
+            489
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8689,
+          "length_px": 97.08,
+          "endpoint_a_xy": [
+            654,
+            812
+          ],
+          "endpoint_b_xy": [
+            581,
+            748
+          ],
+          "mask_area_px": 1442,
+          "box_xyxy": [
+            580,
+            747,
+            654,
+            815
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8257,
+          "length_px": 87.73,
+          "endpoint_a_xy": [
+            719,
+            443
+          ],
+          "endpoint_b_xy": [
+            799,
+            407
+          ],
+          "mask_area_px": 1418,
+          "box_xyxy": [
+            719,
+            407,
+            802,
+            444
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.8007,
+          "length_px": 121.63,
+          "endpoint_a_xy": [
+            427,
+            804
+          ],
+          "endpoint_b_xy": [
+            342,
+            891
+          ],
+          "mask_area_px": 1492,
+          "box_xyxy": [
+            341,
+            804,
+            427,
+            892
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.7914,
+          "length_px": 107.45,
+          "endpoint_a_xy": [
+            537,
+            385
+          ],
+          "endpoint_b_xy": [
+            641,
+            358
+          ],
+          "mask_area_px": 1832,
+          "box_xyxy": [
+            537,
+            357,
+            642,
+            386
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.7506,
+          "length_px": 102.96,
+          "endpoint_a_xy": [
+            881,
+            639
+          ],
+          "endpoint_b_xy": [
+            867,
+            537
+          ],
+          "mask_area_px": 1635,
+          "box_xyxy": [
+            867,
+            537,
+            884,
+            639
+          ]
+        },
+        {
+          "instance": 11,
+          "class_id": 3,
+          "confidence": 0.3822,
+          "length_px": 48.37,
+          "endpoint_a_xy": [
+            377,
+            838
+          ],
+          "endpoint_b_xy": [
+            353,
+            796
+          ],
+          "mask_area_px": 483,
+          "box_xyxy": [
+            338,
+            795,
+            380,
+            839
+          ]
+        },
+        {
+          "instance": 12,
+          "class_id": 3,
+          "confidence": 0.3287,
+          "length_px": 61.72,
+          "endpoint_a_xy": [
+            383,
+            865
+          ],
+          "endpoint_b_xy": [
+            355,
+            810
+          ],
+          "mask_area_px": 633,
+          "box_xyxy": [
+            341,
+            805,
+            396,
+            866
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/QPOSfCzNopZPMwvjcWz1zMV4LmsqChI3MN12AMcT_jpeg.rf.c82ee9c5ef533f0f55eed5b498ceb8e3.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.9024,
+          "length_px": 111.95,
+          "endpoint_a_xy": [
+            563,
+            431
+          ],
+          "endpoint_b_xy": [
+            489,
+            347
+          ],
+          "mask_area_px": 1861,
+          "box_xyxy": [
+            488,
+            347,
+            566,
+            433
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.8947,
+          "length_px": 117.39,
+          "endpoint_a_xy": [
+            847,
+            491
+          ],
+          "endpoint_b_xy": [
+            875,
+            377
+          ],
+          "mask_area_px": 2066,
+          "box_xyxy": [
+            847,
+            377,
+            876,
+            492
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.8875,
+          "length_px": 128.7,
+          "endpoint_a_xy": [
+            533,
+            756
+          ],
+          "endpoint_b_xy": [
+            625,
+            666
+          ],
+          "mask_area_px": 2258,
+          "box_xyxy": [
+            532,
+            666,
+            625,
+            757
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.8734,
+          "length_px": 124.65,
+          "endpoint_a_xy": [
+            520,
+            779
+          ],
+          "endpoint_b_xy": [
+            427,
+            696
+          ],
+          "mask_area_px": 2230,
+          "box_xyxy": [
+            426,
+            695,
+            520,
+            785
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.8606,
+          "length_px": 125.25,
+          "endpoint_a_xy": [
+            535,
+            820
+          ],
+          "endpoint_b_xy": [
+            653,
+            778
+          ],
+          "mask_area_px": 2339,
+          "box_xyxy": [
+            534,
+            777,
+            655,
+            821
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8539,
+          "length_px": 125.42,
+          "endpoint_a_xy": [
+            938,
+            917
+          ],
+          "endpoint_b_xy": [
+            905,
+            796
+          ],
+          "mask_area_px": 2371,
+          "box_xyxy": [
+            904,
+            796,
+            941,
+            917
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8491,
+          "length_px": 122.1,
+          "endpoint_a_xy": [
+            455,
+            863
+          ],
+          "endpoint_b_xy": [
+            345,
+            916
+          ],
+          "mask_area_px": 2069,
+          "box_xyxy": [
+            345,
+            862,
+            459,
+            916
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.7664,
+          "length_px": 123.18,
+          "endpoint_a_xy": [
+            757,
+            903
+          ],
+          "endpoint_b_xy": [
+            879,
+            886
+          ],
+          "mask_area_px": 2133,
+          "box_xyxy": [
+            757,
+            885,
+            880,
+            906
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.6042,
+          "length_px": 96.69,
+          "endpoint_a_xy": [
+            338,
+            879
+          ],
+          "endpoint_b_xy": [
+            356,
+            784
+          ],
+          "mask_area_px": 2269,
+          "box_xyxy": [
+            338,
+            783,
+            366,
+            879
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.4792,
+          "length_px": 54.74,
+          "endpoint_a_xy": [
+            347,
+            784
+          ],
+          "endpoint_b_xy": [
+            356,
+            730
+          ],
+          "mask_area_px": 742,
+          "box_xyxy": [
+            342,
+            730,
+            359,
+            791
+          ]
+        },
+        {
+          "instance": 11,
+          "class_id": 3,
+          "confidence": 0.4159,
+          "length_px": 80.23,
+          "endpoint_a_xy": [
+            342,
+            809
+          ],
+          "endpoint_b_xy": [
+            356,
+            730
+          ],
+          "mask_area_px": 886,
+          "box_xyxy": [
+            341,
+            730,
+            361,
+            809
+          ]
+        },
+        {
+          "instance": 12,
+          "class_id": 3,
+          "confidence": 0.4039,
+          "length_px": 136.72,
+          "endpoint_a_xy": [
+            342,
+            865
+          ],
+          "endpoint_b_xy": [
+            356,
+            729
+          ],
+          "mask_area_px": 1845,
+          "box_xyxy": [
+            342,
+            729,
+            359,
+            866
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/U056L8p9l13wOMIYuIbYPBpw0vyoxuJyGH5LXMKk_jpeg.rf.1ae07944f7426f9f9e45fea55170823e.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.8974,
+          "length_px": 149.82,
+          "endpoint_a_xy": [
+            331,
+            932
+          ],
+          "endpoint_b_xy": [
+            398,
+            798
+          ],
+          "mask_area_px": 3332,
+          "box_xyxy": [
+            329,
+            797,
+            399,
+            933
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.8954,
+          "length_px": 148.65,
+          "endpoint_a_xy": [
+            840,
+            876
+          ],
+          "endpoint_b_xy": [
+            704,
+            816
+          ],
+          "mask_area_px": 3109,
+          "box_xyxy": [
+            703,
+            815,
+            841,
+            880
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.8944,
+          "length_px": 160.59,
+          "endpoint_a_xy": [
+            299,
+            774
+          ],
+          "endpoint_b_xy": [
+            441,
+            699
+          ],
+          "mask_area_px": 3611,
+          "box_xyxy": [
+            298,
+            699,
+            442,
+            775
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.8797,
+          "length_px": 157.65,
+          "endpoint_a_xy": [
+            449,
+            420
+          ],
+          "endpoint_b_xy": [
+            296,
+            458
+          ],
+          "mask_area_px": 3387,
+          "box_xyxy": [
+            296,
+            419,
+            450,
+            458
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.8536,
+          "length_px": 161.92,
+          "endpoint_a_xy": [
+            819,
+            1014
+          ],
+          "endpoint_b_xy": [
+            872,
+            861
+          ],
+          "mask_area_px": 3915,
+          "box_xyxy": [
+            817,
+            860,
+            873,
+            1014
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8184,
+          "length_px": 130.86,
+          "endpoint_a_xy": [
+            929,
+            991
+          ],
+          "endpoint_b_xy": [
+            907,
+            862
+          ],
+          "mask_area_px": 2677,
+          "box_xyxy": [
+            907,
+            861,
+            934,
+            992
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.8037,
+          "length_px": 147.67,
+          "endpoint_a_xy": [
+            782,
+            494
+          ],
+          "endpoint_b_xy": [
+            929,
+            480
+          ],
+          "mask_area_px": 2994,
+          "box_xyxy": [
+            781,
+            471,
+            930,
+            496
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.3934,
+          "length_px": 132.2,
+          "endpoint_a_xy": [
+            524,
+            646
+          ],
+          "endpoint_b_xy": [
+            418,
+            567
+          ],
+          "mask_area_px": 2816,
+          "box_xyxy": [
+            418,
+            566,
+            525,
+            649
+          ]
+        }
+      ]
+    },
+    {
+      "image": "/home/pi/udang/shrimp_dataset/test/images/iMyidu2V2eEsoVueZ37ntHkzNpgJ8VF1ZlbSA4Ft_jpeg.rf.da3d444b1bc043ab44c31d9b6c441fed.jpg",
+      "instances": [
+        {
+          "instance": 1,
+          "class_id": 3,
+          "confidence": 0.8876,
+          "length_px": 116.0,
+          "endpoint_a_xy": [
+            738,
+            465
+          ],
+          "endpoint_b_xy": [
+            818,
+            381
+          ],
+          "mask_area_px": 1927,
+          "box_xyxy": [
+            738,
+            381,
+            818,
+            465
+          ]
+        },
+        {
+          "instance": 2,
+          "class_id": 3,
+          "confidence": 0.8582,
+          "length_px": 88.59,
+          "endpoint_a_xy": [
+            813,
+            919
+          ],
+          "endpoint_b_xy": [
+            891,
+            877
+          ],
+          "mask_area_px": 1322,
+          "box_xyxy": [
+            812,
+            876,
+            892,
+            920
+          ]
+        },
+        {
+          "instance": 3,
+          "class_id": 3,
+          "confidence": 0.8476,
+          "length_px": 129.73,
+          "endpoint_a_xy": [
+            316,
+            935
+          ],
+          "endpoint_b_xy": [
+            414,
+            850
+          ],
+          "mask_area_px": 2298,
+          "box_xyxy": [
+            315,
+            850,
+            415,
+            936
+          ]
+        },
+        {
+          "instance": 4,
+          "class_id": 3,
+          "confidence": 0.8172,
+          "length_px": 102.49,
+          "endpoint_a_xy": [
+            740,
+            915
+          ],
+          "endpoint_b_xy": [
+            642,
+            885
+          ],
+          "mask_area_px": 1596,
+          "box_xyxy": [
+            642,
+            885,
+            740,
+            916
+          ]
+        },
+        {
+          "instance": 5,
+          "class_id": 3,
+          "confidence": 0.8066,
+          "length_px": 103.75,
+          "endpoint_a_xy": [
+            707,
+            608
+          ],
+          "endpoint_b_xy": [
+            726,
+            506
+          ],
+          "mask_area_px": 1573,
+          "box_xyxy": [
+            705,
+            505,
+            726,
+            608
+          ]
+        },
+        {
+          "instance": 6,
+          "class_id": 3,
+          "confidence": 0.8049,
+          "length_px": 103.31,
+          "endpoint_a_xy": [
+            418,
+            412
+          ],
+          "endpoint_b_xy": [
+            315,
+            404
+          ],
+          "mask_area_px": 1549,
+          "box_xyxy": [
+            315,
+            404,
+            421,
+            421
+          ]
+        },
+        {
+          "instance": 7,
+          "class_id": 3,
+          "confidence": 0.7985,
+          "length_px": 103.95,
+          "endpoint_a_xy": [
+            366,
+            721
+          ],
+          "endpoint_b_xy": [
+            352,
+            618
+          ],
+          "mask_area_px": 1720,
+          "box_xyxy": [
+            351,
+            618,
+            371,
+            722
+          ]
+        },
+        {
+          "instance": 8,
+          "class_id": 3,
+          "confidence": 0.7964,
+          "length_px": 109.9,
+          "endpoint_a_xy": [
+            422,
+            539
+          ],
+          "endpoint_b_xy": [
+            313,
+            553
+          ],
+          "mask_area_px": 1669,
+          "box_xyxy": [
+            312,
+            535,
+            424,
+            554
+          ]
+        },
+        {
+          "instance": 9,
+          "class_id": 3,
+          "confidence": 0.7905,
+          "length_px": 77.47,
+          "endpoint_a_xy": [
+            438,
+            916
+          ],
+          "endpoint_b_xy": [
+            367,
+            947
+          ],
+          "mask_area_px": 1070,
+          "box_xyxy": [
+            367,
+            915,
+            441,
+            947
+          ]
+        },
+        {
+          "instance": 10,
+          "class_id": 3,
+          "confidence": 0.7347,
+          "length_px": 95.13,
+          "endpoint_a_xy": [
+            791,
+            478
+          ],
+          "endpoint_b_xy": [
+            884,
+            458
+          ],
+          "mask_area_px": 1528,
+          "box_xyxy": [
+            791,
+            457,
+            885,
+            481
+          ]
+        },
+        {
+          "instance": 11,
+          "class_id": 3,
+          "confidence": 0.5181,
+          "length_px": 116.02,
+          "endpoint_a_xy": [
+            887,
+            834
+          ],
+          "endpoint_b_xy": [
+            793,
+            766
+          ],
+          "mask_area_px": 2586,
+          "box_xyxy": [
+            793,
+            766,
+            889,
+            837
+          ]
+        }
+      ]
+    }
+  ]
+}

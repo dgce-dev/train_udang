@@ -1,0 +1,40 @@
+dataset dummy https://universe.roboflow.com/project/vannamei-shrimp/dataset/3
+
+cat /proc/device-tree/model
+Raspberry Pi 5 Model B Rev 1.1
+
+cat /etc/os-release
+PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
+NAME="Debian GNU/Linux"
+VERSION_ID="13"
+VERSION="13 (trixie)"
+VERSION_CODENAME=trixie
+DEBIAN_VERSION_FULL=13.7
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+
+uname -a
+Linux raspberrypi 6.18.39+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.39-1+rpt1 (2026-07-29) aarch64 GNU/Linux
+
+cat /proc/cpuinfo | grep -E "Model|Revision|Hardware"
+Revision        : d04171
+Model           : Raspberry Pi 5 Model B Rev 1.1
+
+free -h
+               total        used        free      shared  buff/cache   available
+Mem:           7.9Gi       1.5Gi       5.0Gi        64Mi       1.5Gi       6.4Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+df -h /
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/mmcblk0p2   57G   29G   26G  54% /
+
+lsblk
+NAME        MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
+loop0         7:0    0    2G  0 loop 
+mmcblk0     179:0    0 58.3G  0 disk 
+├─mmcblk0p1 179:1    0  512M  0 part /boot/firmware
+└─mmcblk0p2 179:2    0 57.8G  0 part /
+zram0       254:0    0    2G  0 disk [SWAP]

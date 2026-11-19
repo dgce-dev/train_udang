@@ -1,0 +1,151 @@
+[2026-11-18 21:08:45.717] [113236] [HailoRT] [info] [hef.cpp:1994] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: best_seg
+[2026-11-18 21:08:45.717] [113236] [HailoRT] [info] [hef.cpp:1994] [get_network_group_and_network_name] No name was given. Addressing all networks of default network_group: best_seg
+[2026-11-18 21:08:45.738] [113236] [HailoRT] [info] [vdevice.cpp:535] [create] Creating vdevice with params: device_count: 1, scheduling_algorithm: NONE, multi_process_service: false
+[2026-11-18 21:08:45.750] [113236] [HailoRT] [info] [device.cpp:51] [Device] OS Version: Linux 6.18.39+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.18.39-1+rpt1 (2026-07-29) aarch64
+[2026-11-18 21:08:45.750] [113236] [HailoRT] [info] [control.cpp:113] [control__parse_identify_results] firmware_version is: 4.23.0
+[2026-11-18 21:08:45.750] [113236] [HailoRT] [info] [vdevice.cpp:682] [create] VDevice Infos: 0001:01:00.0
+[2026-11-18 21:08:45.756] [113236] [HailoRT] [info] [internal_buffer_manager.cpp:77] [print_execution_results] Planned internal buffer memory: CMA=0 CMA-Desc=262144 Pinned=1128448. memory to edge layer usage factor is 1
+[2026-11-18 21:08:45.756] [113236] [HailoRT] [info] [internal_buffer_manager.cpp:86] [print_execution_results] Default Internal buffer planner executed successfully
+[2026-11-18 21:08:45.789] [113236] [HailoRT] [info] [device_internal.cpp:57] [configure] Configuring HEF took 38.255715 milliseconds
+[2026-11-18 21:08:45.789] [113236] [HailoRT] [info] [vdevice.cpp:780] [configure] Configuring HEF on VDevice took 38.727087 milliseconds
+[2026-11-18 21:08:45.790] [113236] [HailoRT] [info] [edge_elements.cpp:52] [create] Created (HwWriteEl6best_seg/input_layer1 | hw_frame_size: 1228800)
+[2026-11-18 21:08:45.790] [113236] [HailoRT] [info] [queue_elements.cpp:284] [create] Created (PushQEl6best_seg/input_layer1 | timeout: 10s)
+[2026-11-18 21:08:45.791] [113236] [HailoRT] [info] [filter_elements.cpp:101] [create] Created (PreInferEl6best_seg/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 255)
+[2026-11-18 21:08:45.791] [113236] [HailoRT] [info] [vstream.cpp:754] [InputVStreamImpl] Creating best_seg/input_layer1...
+[2026-11-18 21:08:45.791] [113236] [HailoRT] [info] [vstream_builder.cpp:102] [create_inputs] Input pipeline 'best_seg/input_layer1': (PreInferEl6best_seg/input_layer1 | Quantization - src_type: FLOAT32, dst_type UINT8, limvals_min: 0, limvals_max: 255) >> (PushQEl6best_seg/input_layer1 | timeout: 10s) >> (HwWriteEl6best_seg/input_layer1 | hw_frame_size: 1228800) >> HW
+[2026-11-18 21:08:45.791] [113236] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl6best_seg/conv44 | hw_frame_size: 409600)
+[2026-11-18 21:08:45.791] [113236] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read6best_seg/conv44)
+[2026-11-18 21:08:45.791] [113236] [HailoRT] [info] [filter_elements.cpp:372] [create] Created (PostInferEl6best_seg/conv44 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -7.45651, limvals_max: 18.2382)
+[2026-11-18 21:08:45.792] [113236] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl6best_seg/conv44 | timeout: 10s)
+[2026-11-18 21:08:45.792] [113236] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating best_seg/conv44...
+[2026-11-18 21:08:45.792] [113236] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'best_seg/conv44': HW >> (HwReadEl6best_seg/conv44 | hw_frame_size: 409600) >> (PullQEl_hw_read6best_seg/conv44) >> (PostInferEl6best_seg/conv44 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -7.45651, limvals_max: 18.2382) >> (UserBuffQEl6best_seg/conv44 | timeout: 10s)
+[2026-11-18 21:08:45.792] [113236] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl14best_seg/conv45 | hw_frame_size: 25600)
+[2026-11-18 21:08:45.792] [113236] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read14best_seg/conv45)
+[2026-11-18 21:08:45.792] [113236] [HailoRT] [info] [filter_elements.cpp:372] [create] Created (PostInferEl14best_seg/conv45 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1)
+[2026-11-18 21:08:45.792] [113236] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl14best_seg/conv45 | timeout: 10s)
+[2026-11-18 21:08:45.792] [113236] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating best_seg/conv45...
+[2026-11-18 21:08:45.792] [113236] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'best_seg/conv45': HW >> (HwReadEl14best_seg/conv45 | hw_frame_size: 25600) >> (PullQEl_hw_read14best_seg/conv45) >> (PostInferEl14best_seg/conv45 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1) >> (UserBuffQEl14best_seg/conv45 | timeout: 10s)
+[2026-11-18 21:08:45.792] [113236] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl7best_seg/conv46 | hw_frame_size: 204800)
+[2026-11-18 21:08:45.792] [113236] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read7best_seg/conv46)
+[2026-11-18 21:08:45.792] [113236] [HailoRT] [info] [filter_elements.cpp:372] [create] Created (PostInferEl7best_seg/conv46 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -3.37604, limvals_max: 1.84148)
+[2026-11-18 21:08:45.792] [113236] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl7best_seg/conv46 | timeout: 10s)
+[2026-11-18 21:08:45.792] [113236] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating best_seg/conv46...
+[2026-11-18 21:08:45.792] [113236] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'best_seg/conv46': HW >> (HwReadEl7best_seg/conv46 | hw_frame_size: 204800) >> (PullQEl_hw_read7best_seg/conv46) >> (PostInferEl7best_seg/conv46 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -3.37604, limvals_max: 1.84148) >> (UserBuffQEl7best_seg/conv46 | timeout: 10s)
+[2026-11-18 21:08:45.793] [113236] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl0best_seg/conv48 | hw_frame_size: 819200)
+[2026-11-18 21:08:45.793] [113236] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read0best_seg/conv48)
+[2026-11-18 21:08:45.793] [113236] [HailoRT] [info] [filter_elements.cpp:372] [create] Created (PostInferEl0best_seg/conv48 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -0.279128, limvals_max: 8.61809)
+[2026-11-18 21:08:45.793] [113236] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl0best_seg/conv48 | timeout: 10s)
+[2026-11-18 21:08:45.793] [113236] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating best_seg/conv48...
+[2026-11-18 21:08:45.793] [113236] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'best_seg/conv48': HW >> (HwReadEl0best_seg/conv48 | hw_frame_size: 819200) >> (PullQEl_hw_read0best_seg/conv48) >> (PostInferEl0best_seg/conv48 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -0.279128, limvals_max: 8.61809) >> (UserBuffQEl0best_seg/conv48 | timeout: 10s)
+[2026-11-18 21:08:45.793] [113236] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl1best_seg/conv60 | hw_frame_size: 102400)
+[2026-11-18 21:08:45.793] [113236] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read1best_seg/conv60)
+[2026-11-18 21:08:45.793] [113236] [HailoRT] [info] [filter_elements.cpp:372] [create] Created (PostInferEl1best_seg/conv60 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -6.2665, limvals_max: 13.9608)
+[2026-11-18 21:08:45.793] [113236] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl1best_seg/conv60 | timeout: 10s)
+[2026-11-18 21:08:45.793] [113236] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating best_seg/conv60...
+[2026-11-18 21:08:45.793] [113236] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'best_seg/conv60': HW >> (HwReadEl1best_seg/conv60 | hw_frame_size: 102400) >> (PullQEl_hw_read1best_seg/conv60) >> (PostInferEl1best_seg/conv60 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -6.2665, limvals_max: 13.9608) >> (UserBuffQEl1best_seg/conv60 | timeout: 10s)
+[2026-11-18 21:08:45.793] [113236] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl15best_seg/conv61 | hw_frame_size: 6400)
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read15best_seg/conv61)
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [filter_elements.cpp:372] [create] Created (PostInferEl15best_seg/conv61 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1 | Reorder - src_order: NHCW, src_shape: (40, 40, 4), dst_order: NHWC, dst_shape: (40, 40, 4))
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl15best_seg/conv61 | timeout: 10s)
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating best_seg/conv61...
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'best_seg/conv61': HW >> (HwReadEl15best_seg/conv61 | hw_frame_size: 6400) >> (PullQEl_hw_read15best_seg/conv61) >> (PostInferEl15best_seg/conv61 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1 | Reorder - src_order: NHCW, src_shape: (40, 40, 4), dst_order: NHWC, dst_shape: (40, 40, 4)) >> (UserBuffQEl15best_seg/conv61 | timeout: 10s)
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl4best_seg/conv62 | hw_frame_size: 51200)
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read4best_seg/conv62)
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [filter_elements.cpp:372] [create] Created (PostInferEl4best_seg/conv62 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -2.14872, limvals_max: 1.36361)
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl4best_seg/conv62 | timeout: 10s)
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating best_seg/conv62...
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'best_seg/conv62': HW >> (HwReadEl4best_seg/conv62 | hw_frame_size: 51200) >> (PullQEl_hw_read4best_seg/conv62) >> (PostInferEl4best_seg/conv62 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -2.14872, limvals_max: 1.36361) >> (UserBuffQEl4best_seg/conv62 | timeout: 10s)
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl5best_seg/conv73 | hw_frame_size: 25600)
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read5best_seg/conv73)
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [filter_elements.cpp:372] [create] Created (PostInferEl5best_seg/conv73 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -4.38904, limvals_max: 17.1341)
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl5best_seg/conv73 | timeout: 10s)
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating best_seg/conv73...
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'best_seg/conv73': HW >> (HwReadEl5best_seg/conv73 | hw_frame_size: 25600) >> (PullQEl_hw_read5best_seg/conv73) >> (PostInferEl5best_seg/conv73 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -4.38904, limvals_max: 17.1341) >> (UserBuffQEl5best_seg/conv73 | timeout: 10s)
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl8best_seg/conv74 | hw_frame_size: 1600)
+[2026-11-18 21:08:45.794] [113236] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read8best_seg/conv74)
+[2026-11-18 21:08:45.795] [113236] [HailoRT] [info] [filter_elements.cpp:372] [create] Created (PostInferEl8best_seg/conv74 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1 | Reorder - src_order: NHCW, src_shape: (20, 20, 4), dst_order: NHWC, dst_shape: (20, 20, 4))
+[2026-11-18 21:08:45.795] [113236] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl8best_seg/conv74 | timeout: 10s)
+[2026-11-18 21:08:45.795] [113236] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating best_seg/conv74...
+[2026-11-18 21:08:45.795] [113236] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'best_seg/conv74': HW >> (HwReadEl8best_seg/conv74 | hw_frame_size: 1600) >> (PullQEl_hw_read8best_seg/conv74) >> (PostInferEl8best_seg/conv74 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: 0, limvals_max: 1 | Reorder - src_order: NHCW, src_shape: (20, 20, 4), dst_order: NHWC, dst_shape: (20, 20, 4)) >> (UserBuffQEl8best_seg/conv74 | timeout: 10s)
+[2026-11-18 21:08:45.795] [113236] [HailoRT] [info] [edge_elements.cpp:287] [create] Created (HwReadEl11best_seg/conv75 | hw_frame_size: 12800)
+[2026-11-18 21:08:45.795] [113236] [HailoRT] [info] [queue_elements.cpp:657] [create] Created (PullQEl_hw_read11best_seg/conv75)
+[2026-11-18 21:08:45.795] [113236] [HailoRT] [info] [filter_elements.cpp:372] [create] Created (PostInferEl11best_seg/conv75 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -2.25835, limvals_max: 1.31854 | Reorder - src_order: NHCW, src_shape: (20, 20, 32), dst_order: NHWC, dst_shape: (20, 20, 32))
+[2026-11-18 21:08:45.795] [113236] [HailoRT] [info] [queue_elements.cpp:800] [create] Created (UserBuffQEl11best_seg/conv75 | timeout: 10s)
+[2026-11-18 21:08:45.795] [113236] [HailoRT] [info] [vstream.cpp:1114] [OutputVStreamImpl] Creating best_seg/conv75...
+[2026-11-18 21:08:45.795] [113236] [HailoRT] [info] [vstream_builder.cpp:220] [create_outputs] Output pipeline 'best_seg/conv75': HW >> (HwReadEl11best_seg/conv75 | hw_frame_size: 12800) >> (PullQEl_hw_read11best_seg/conv75) >> (PostInferEl11best_seg/conv75 | Quantization - src_type: UINT8, dst_type FLOAT32, limvals_min: -2.25835, limvals_max: 1.31854 | Reorder - src_order: NHCW, src_shape: (20, 20, 32), dst_order: NHWC, dst_shape: (20, 20, 32)) >> (UserBuffQEl11best_seg/conv75 | timeout: 10s)
+[2026-11-18 21:08:45.796] [113236] [HailoRT] [info] [core_op.cpp:156] [activate] Activating best_seg took 0.983001 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-11-18 21:08:45.796] [113236] [HailoRT] [info] [core_op.cpp:156] [activate] Activating best_seg took 1.002112 milliseconds. Note that the function is asynchronous and thus the network is not fully activated yet.
+[2026-11-18 21:08:50.175] [113262] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-11-18 21:08:50.175] [113260] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-11-18 21:08:50.175] [113266] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-11-18 21:08:50.175] [113264] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-11-18 21:08:50.175] [113276] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-11-18 21:08:50.175] [113278] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-11-18 21:08:50.175] [113270] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-11-18 21:08:50.175] [113272] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-11-18 21:08:50.175] [113268] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-11-18 21:08:50.175] [113274] [HailoRT] [info] [vdevice_native_stream.cpp:331] [read_impl] Failed read from stream HAILO_STREAM_NOT_ACTIVATED(72) (device: 0001:01:00.0)
+[2026-11-18 21:08:50.176] [113236] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.561112 ms
+[2026-11-18 21:08:50.176] [113236] [HailoRT] [info] [core_op.cpp:186] [deactivate] Deactivating took 0.578815 ms
+[2026-11-18 21:08:50.176] [113260] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read6best_seg/conv44!
+[2026-11-18 21:08:50.176] [113261] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl6best_seg/conv44!
+[2026-11-18 21:08:50.176] [113260] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read6best_seg/conv44 is not running anymore, exiting..
+[2026-11-18 21:08:50.176] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read6best_seg/conv44 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.176] [113261] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl6best_seg/conv44 is not running anymore, exiting..
+[2026-11-18 21:08:50.176] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl6best_seg/conv44 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.176] [113262] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read14best_seg/conv45!
+[2026-11-18 21:08:50.176] [113263] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl14best_seg/conv45!
+[2026-11-18 21:08:50.176] [113262] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read14best_seg/conv45 is not running anymore, exiting..
+[2026-11-18 21:08:50.176] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read14best_seg/conv45 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.176] [113263] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl14best_seg/conv45 is not running anymore, exiting..
+[2026-11-18 21:08:50.176] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl14best_seg/conv45 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.176] [113264] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read7best_seg/conv46!
+[2026-11-18 21:08:50.176] [113265] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl7best_seg/conv46!
+[2026-11-18 21:08:50.176] [113264] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read7best_seg/conv46 is not running anymore, exiting..
+[2026-11-18 21:08:50.176] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read7best_seg/conv46 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.176] [113265] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl7best_seg/conv46 is not running anymore, exiting..
+[2026-11-18 21:08:50.176] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl7best_seg/conv46 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.176] [113266] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read0best_seg/conv48!
+[2026-11-18 21:08:50.176] [113267] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl0best_seg/conv48!
+[2026-11-18 21:08:50.176] [113266] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read0best_seg/conv48 is not running anymore, exiting..
+[2026-11-18 21:08:50.176] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read0best_seg/conv48 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.176] [113267] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl0best_seg/conv48 is not running anymore, exiting..
+[2026-11-18 21:08:50.176] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl0best_seg/conv48 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.176] [113269] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl1best_seg/conv60!
+[2026-11-18 21:08:50.176] [113268] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read1best_seg/conv60!
+[2026-11-18 21:08:50.176] [113268] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read1best_seg/conv60 is not running anymore, exiting..
+[2026-11-18 21:08:50.176] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read1best_seg/conv60 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.176] [113269] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl1best_seg/conv60 is not running anymore, exiting..
+[2026-11-18 21:08:50.176] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl1best_seg/conv60 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.176] [113271] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl15best_seg/conv61!
+[2026-11-18 21:08:50.176] [113270] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read15best_seg/conv61!
+[2026-11-18 21:08:50.176] [113270] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read15best_seg/conv61 is not running anymore, exiting..
+[2026-11-18 21:08:50.176] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read15best_seg/conv61 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.176] [113271] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl15best_seg/conv61 is not running anymore, exiting..
+[2026-11-18 21:08:50.176] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl15best_seg/conv61 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.177] [113272] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read4best_seg/conv62!
+[2026-11-18 21:08:50.177] [113273] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl4best_seg/conv62!
+[2026-11-18 21:08:50.177] [113272] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read4best_seg/conv62 is not running anymore, exiting..
+[2026-11-18 21:08:50.177] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read4best_seg/conv62 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.177] [113273] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl4best_seg/conv62 is not running anymore, exiting..
+[2026-11-18 21:08:50.177] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl4best_seg/conv62 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.177] [113274] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read5best_seg/conv73!
+[2026-11-18 21:08:50.177] [113275] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl5best_seg/conv73!
+[2026-11-18 21:08:50.177] [113274] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read5best_seg/conv73 is not running anymore, exiting..
+[2026-11-18 21:08:50.177] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read5best_seg/conv73 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.177] [113275] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl5best_seg/conv73 is not running anymore, exiting..
+[2026-11-18 21:08:50.177] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl5best_seg/conv73 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.177] [113276] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read8best_seg/conv74!
+[2026-11-18 21:08:50.177] [113277] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl8best_seg/conv74!
+[2026-11-18 21:08:50.177] [113276] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read8best_seg/conv74 is not running anymore, exiting..
+[2026-11-18 21:08:50.177] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read8best_seg/conv74 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.177] [113277] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl8best_seg/conv74 is not running anymore, exiting..
+[2026-11-18 21:08:50.177] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl8best_seg/conv74 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.177] [113279] [HailoRT] [info] [queue_elements.cpp:855] [run_in_thread] Shutdown event was signaled in dequeue of UserBuffQEl11best_seg/conv75!
+[2026-11-18 21:08:50.177] [113278] [HailoRT] [info] [queue_elements.cpp:734] [run_in_thread] Shutdown event was signaled in run_pull of queue element PullQEl_hw_read11best_seg/conv75!
+[2026-11-18 21:08:50.177] [113278] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PullQEl_hw_read11best_seg/conv75 is not running anymore, exiting..
+[2026-11-18 21:08:50.177] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PullQEl_hw_read11best_seg/conv75 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.177] [113279] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element UserBuffQEl11best_seg/conv75 is not running anymore, exiting..
+[2026-11-18 21:08:50.177] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element UserBuffQEl11best_seg/conv75 has 0 frames in his Queue on destruction
+[2026-11-18 21:08:50.177] [113259] [HailoRT] [info] [queue_elements.cpp:68] [operator()] Thread in element PushQEl6best_seg/input_layer1 is not running anymore, exiting..
+[2026-11-18 21:08:50.177] [113236] [HailoRT] [info] [queue_elements.cpp:46] [~BaseQueueElement] Queue element PushQEl6best_seg/input_layer1 has 0 frames in his Queue on destruction
