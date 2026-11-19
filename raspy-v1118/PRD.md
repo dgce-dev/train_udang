@@ -102,16 +102,72 @@ graph TD
 *   **Komunikasi:** Mengirim *raw turbidity index* (nilai ADC / indeks sensor, **bukan NTU**) ke USB Serial (misal: `TURB: 45`). Mendengarkan perintah PWM dari USB Serial (misal: `PWM: 200`).
 *   **Output:** Menerapkan nilai PWM ke pin kontrol lampu LED.
 
-### 4.3. Pipeline Pengolahan Citra (Metode Pengukuran)
-Metode **bukan** filter RGB tunggal. Baseline v1 memakai OpenCV dengan ruang warna **HSV + grayscale/luminansi**, karena udang vaname pucat di plat gelap dan pencahayaan/kekeruhan berubah-ubah.
+### 4.3. Pipeline Pengolahan Citra & Metode Pengukuran Panjang (YOLO + Feret)
 
-1.  **Pra-proses:** *frame* dari EasyCap → koreksi aspek rasio (sesuai perilaku output CVBS kamera yang diuji di lapangan — lihat §3.3 catatan CVBS; bisa 4:3 asli jika tidak ada squeeze, atau stretch ke 16:9 jika kamera melakukan anamorphic squeeze) → (opsional) koreksi refraksi dari dinding tabung silinder berisi air dan/atau koreksi perspektif plat → *denoise* ringan → **CLAHE** pada kanal kecerahan untuk menambah kontras di air keruh.
-2.  **Segmentasi udang (utama):** konversi **BGR → HSV**. Karena tubuh vaname hampir putih/transparan, **Hue tidak diandalkan sebagai ciri utama**. Deteksi mengandalkan kanal **V (Value)** dan/atau grayscale: udang lebih terang dari plat abu-tua/hitam matte → *threshold* (Otsu / adaptif) + morfologi (*open/close*) untuk membersihkan noise.
-3.  **Pembersihan siluet:** buang kontur terlalu kecil (noise); dari kontur kandidat tersisa, pilih **udang terbesar** berdasarkan luas siluet. Jika multi dan terpisah → tetap pilih **terbesar** (satu pengukuran per *capture*).
-4.  **Panjang tubuh:** skeleton / *medial axis* (atau polylines sepanjang *centerline*) dari kepala ke ekor; jumlahkan panjang sepanjang kurva (bukan garis lurus).
-5.  **Skala *grid*:** deteksi garis *grid* (putih/kuning pucat di plat gelap) lewat kontras tinggi — untuk kuning boleh bantu *range* **H** di HSV; untuk putih lebih ke **V** tinggi + saturasi rendah. Hitung mm/piksel dari kotak **2 × 2 cm**; kalibrasi dilakukan di **area tengah plat** (hindari tepi lingkaran yang terpotong atau terdistorsi perspektif). **Kalibrasi skala dilakukan satu kali** saat *first boot* atau saat user menekan tombol "Kalibrasi Grid" (dengan plat kosong tanpa udang), lalu nilai mm/piksel disimpan dan dipakai untuk semua *capture* berikutnya hingga kalibrasi ulang.
-6.  **Indikasi melayang (kasar, v1):** heuristik (mis. ukuran siluet vs skala *grid* lokal, ketajaman tepi vs plat, atau area kontak dengan plat) → status `WARN_FLOATING`; bukan pengukuran stereo/depth.
-7.  **Yang tidak dipakai sebagai metode utama v1:** filter RGB mentah saja (sensitif cahaya); deteksi hanya berbasis Hue (udang pucat lemah di H); deep learning wajib (boleh ditambah nanti jika dataset lapangan cukup).
+Sistem menggunakan model deep learning **YOLO Instance Segmentation** (YOLOv8-seg / YOLO11-seg) yang diakselerasi via NPU Hailo-8 / Hailo-8L (atau CPU via NCNN) untuk memisahkan tubuh udang dari latar belakang, kemudian dilanjutkan dengan analisis morfometri menggunakan **Diameter Feret (Caliper Length)** dan kurva skeleton tubuh.
+
+```
+[Frame Kamera / EasyCap]
+          │
+          ▼
+[Pra-proses: CLAHE + Koreksi Rasio/Perspektif]
+          │
+          ▼
+[YOLO Instance Segmentation (Hailo / NCNN)] ──> Deteksi Box, Class, & Binary Mask
+          │
+          ▼
+[Ekstraksi Kontur Mask Tubuh Udang]
+          │
+    ┌─────┴────────────────────────────────────────┐
+    ▼                                              ▼
+[Metode 1: Feret Diameter (Max Caliper)]   [Metode 2: Centerline Skeletonization]
+(Jarak Euclidean terjauh antar 2 titik)    (Penelusuran kurva tulang belakang)
+(Ideal: Udang Lurus / Sedikit Miring)      (Ideal: Udang Melengkung C-Shape)
+    └─────┬────────────────────────────────────────┘
+          │
+          ▼
+[Konversi Skala: Pixel ──> Milimeter (mm)] ── (via Kalibrasi Grid Plat / Round Base)
+          │
+          ▼
+[Hasil Panjang Akhir + Validasi Toleransi]
+```
+
+#### 4.3.1. Deteksi & Segmentasi Tubuh (YOLO Segmentation)
+1. **Model Inferensi**: Output model berupa *binary mask* presisi tinggi untuk tiap instans udang (`top_shrimp` atau `side_shrimp`). Mask memisahkan tubuh udang dari kaki tipis dan antena.
+2. **Post-processing Mask**: Mask biner dibersihkan menggunakan operasi morfologi (`cv2.morphologyEx` dengan kernel ellipse 3x3) untuk menghaluskan tepian kontur luar (*boundary contour*).
+
+#### 4.3.2. Penentuan Panjang Udang: Metode Feret Diameter
+**Diameter Feret** (dikenal juga sebagai *Maximum Caliper Diameter*) adalah jarak terpanjang antara dua garis sejajar yang mengapit kontur objek dari berbagai orientasi, setara dengan **jarak Euclidean maksimum antara dua titik pada batas kontur (Convex Hull)**:
+
+$$L_{\text{feret}} = \max_{p_i, p_j \in \text{Hull}} \sqrt{(x_i - x_j)^2 + (y_i - y_j)^2}$$
+
+1. **Komputasi Feret Maksimum**:
+   - Dihitung dari titik-titik *Convex Hull* kontur mask udang (`cv2.convexHull`).
+   - Algoritma *Rotating Calipers* dijalankan pada titik hull untuk menemukan pasangan titik terjauh ($P_{\text{head}}$ pada ujung rostrum/kepala dan $P_{\text{tail}}$ pada ujung telson/ekor) dalam kompleksitas $O(N)$.
+   - Jarak ini menghasilkan panjang linier fisik udang dalam satuan piksel.
+2. **Kapan Menggunakan Feret**:
+   - Sangat akurat dan tahan derau (*noise-resistant*) saat udang berada dalam posisi relatif lurus atau hanya membengkok ringan ($< 15^\circ$).
+   - Menghindari fluktuasi titik akhir akibat lekukan kaki renang atau antena yang lolos dari mask.
+
+#### 4.3.3. Penanganan Udang Melengkung (Curved / C-Shape)
+Jika rasio kelengkungan tinggi (dideteksi dari perbandingan luas mask terhadap luas bounding box atau deviasi bentuk):
+1. **Skeletonization / Medial Axis Transform**: Mask biner ditipiskan (*morphological thinning*) menjadi garis kerangka tubuh selebar 1 piksel.
+2. **Arc-Length Integral**: Jalur skeleton ditelusuri dari ujung kepala ke ujung ekor sebagai kurva spline/polylines, lalu dihitung total panjang kumulatifnya:
+
+$$L_{\text{skeleton}} = \sum_{k=1}^{n-1} \sqrt{(x_{k+1} - x_k)^2 + (y_{k+1} - y_k)^2}$$
+
+3. **Fallback & Ensembling**: Jika tubuh lurus, sistem memakai **Feret Diameter** karena lebih stabil dari derau percabangan skeleton (*branching artifacts*). Jika tubuh melengkung signifikan, sistem memakai **Skeleton Arc-Length**.
+
+#### 4.3.4. Skala Kalibrasi & Konversi Pixel ke Milimeter (mm)
+Panjang piksel dikonversi menjadi satuan fisik milimeter:
+
+$$L_{\text{mm}} = L_{\text{pixel}} \times S_{\text{mm/px}}$$
+
+Faktor skala $S_{\text{mm/px}}$ diperoleh melalui dua opsi kalibrasi:
+1. **Grid Referensi Plat (2 × 2 cm)**: Garis kotak-kotak plat tengah dideteksi pada kondisi awal (tanpa udang). Jarak 20 mm dibagi rata-rata jumlah piksel antar garis grid.
+2. **Objek Referensi Round Base**: Deteksi mask kelas `round_base` yang diameter fisiknya telah diketahui pasti ($D_{\text{fisik}}$ mm), sehingga:
+
+$$S_{\text{mm/px}} = \frac{D_{\text{fisik}}}{\text{Feret Diameter}(\text{round\_base})_{\text{pixel}}}$$
 
 ---
 
@@ -120,8 +176,8 @@ Metode **bukan** filter RGB tunggal. Baseline v1 memakai OpenCV dengan ruang war
 1.  **Pengambilan Gambar Manual:** Sistem tidak memotret otomatis. *Frame* video ditahan (di-*capture*) secara seketika saat tombol "Ukur" ditekan di layar.
 2.  **Koreksi Distorsi (Pre-processing):** *Software* Python memperbaiki aspek rasio gambar sesuai perilaku output CVBS kamera (lihat §3.3 — koreksi yang benar tergantung apakah kamera melakukan *squeeze*, *letterbox*, atau *crop*). Jika uji lapangan menunjukkan distorsi refraksi dari dinding tabung silinder berisi air atau sudut kamera menunduk, sistem menerapkan koreksi refraksi dan/atau transformasi perspektif (*homography*) agar *grid* 2 × 2 cm tampak mendekati persegi seragam di area pengukuran.
 3.  **Pengukuran Udang (Measurement):**
-    *   Pipeline citra mengikuti **§4.3** (HSV + luminansi / V, bukan filter RGB saja).
-    *   *Software* mendeteksi kandidat objek udang di *frame*.
+    *   Pipeline inferensi & morfometri mengikuti **§4.3** (YOLO Segmentation + Maximum Feret Caliper Diameter / Skeleton Arc-Length).
+    *   *Software* mendeteksi kandidat objek udang di *frame* beserta polygon mask masing-masing.
     *   **Prioritas multi-udang:** jika terdeteksi **lebih dari satu** udang yang terpisah, sistem **hanya mengukur udang terbesar** (kriteria: luas siluet / panjang kandidat terbesar). Overlay GUI menandai udang yang dipilih. Idealnya operator tetap memasukkan satu udang; prioritas terbesar adalah *fallback*, bukan prosedur utama.
     *   **Saling sentuh / bertumpuk:** jika siluet menyatu ambigu (tidak bisa dipisah andal), *capture* di-*reject* (bukan tebak-tebak mana yang terbesar).
     *   Udang **tidak wajib lurus**. Posisi ideal: menempel datar di plat *grid*. Jika terindikasi **melayang / jauh dari plat**, sistem **tetap mengukur**, tetapi menandai hasil dengan keterangan peringatan (lihat poin 4).
